@@ -1,0 +1,2514 @@
+{
+ "checks": [
+  [
+   "beta > 0 in all Active, < 0 in all Passive (compared mice)",
+   true
+  ],
+  [
+   "v2: M peak trial = m07 value",
+   true
+  ],
+  [
+   "v2 slide 1: both models 0.72 in trials 3-5",
+   true
+  ],
+  [
+   "[EN] text fits: S1 KEY (1.30 in needed, box 1.36 in, must end above 3.02 in, ends 2.97)",
+   true
+  ],
+  [
+   "[EN] KEY: arrow tip lies left of the box",
+   true
+  ],
+  [
+   "[EN] text fits: S1 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S1 Bottom line (0.64 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S1 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "v2 slide 1: both models 0.72 in trials 3-5",
+   true
+  ],
+  [
+   "[EN] text fits: S1 KEY (1.30 in needed, box 1.36 in, must end above 3.02 in, ends 2.97)",
+   true
+  ],
+  [
+   "[EN] KEY: arrow tip lies left of the box",
+   true
+  ],
+  [
+   "[EN] text fits: S1 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S1 Bottom line (0.64 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S1 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table head  (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table head Hjort 2026 (Pavlovian) (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table head Our task (PR licking) (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r0c0 (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r0c1 (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r0c2 (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r1c0 (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r1c1 (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r1c2 (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r2c0 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r2c1 (0.54 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r2c2 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r3c0 (0.32 in needed, box 0.82 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r3c1 (0.32 in needed, box 0.82 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r3c2 (0.76 in needed, box 0.82 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r4c0 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r4c1 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r4c2 (0.54 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r5c0 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r5c1 (0.54 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r5c2 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r6c0 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r6c1 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r6c2 (0.54 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] v2 mapping table ends above the bottom line (ends 5.73 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 KEY (0.71 in needed, box 0.77 in, must end above 4.05 in, ends 4.01)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table head  (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table head Hjort 2026 (Pavlovian) (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table head Our task (PR licking) (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r0c0 (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r0c1 (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r0c2 (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r1c0 (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r1c1 (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r1c2 (0.32 in needed, box 0.38 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r2c0 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r2c1 (0.54 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r2c2 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r3c0 (0.32 in needed, box 0.82 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r3c1 (0.32 in needed, box 0.82 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r3c2 (0.76 in needed, box 0.82 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r4c0 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r4c1 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r4c2 (0.54 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r5c0 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r5c1 (0.54 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r5c2 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r6c0 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r6c1 (0.32 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 table r6c2 (0.54 in needed, box 0.60 in)",
+   true
+  ],
+  [
+   "[EN] v2 mapping table ends above the bottom line (ends 5.73 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 KEY (0.71 in needed, box 0.77 in, must end above 4.05 in, ends 4.01)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S3 KEY (0.79 in needed, box 0.85 in, must end above 2.86 in, ends 2.74)",
+   true
+  ],
+  [
+   "[EN] KEY: arrow tip lies under the box",
+   true
+  ],
+  [
+   "[EN] text fits: S3 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S3 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S3 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S3 KEY (0.79 in needed, box 0.85 in, must end above 2.86 in, ends 2.74)",
+   true
+  ],
+  [
+   "[EN] KEY: arrow tip lies under the box",
+   true
+  ],
+  [
+   "[EN] text fits: S3 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S3 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S3 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "v2: PH / no learning dBIC >= 70 (min 70.5)",
+   true
+  ],
+  [
+   "v2: LOMO best = RPE2a (Active), today's outcome (Passive)",
+   true
+  ],
+  [
+   "[EN] text fits: S4 KEY (0.79 in needed, box 0.85 in, must end above 2.72 in, ends 2.45)",
+   true
+  ],
+  [
+   "[EN] KEY: arrow tip lies under the box",
+   true
+  ],
+  [
+   "[EN] text fits: S4 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S4 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S4 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "v2: PH / no learning dBIC >= 70 (min 70.5)",
+   true
+  ],
+  [
+   "v2: LOMO best = RPE2a (Active), today's outcome (Passive)",
+   true
+  ],
+  [
+   "[EN] text fits: S4 KEY (0.79 in needed, box 0.85 in, must end above 2.72 in, ends 2.45)",
+   true
+  ],
+  [
+   "[EN] KEY: arrow tip lies under the box",
+   true
+  ],
+  [
+   "[EN] text fits: S4 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S4 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S4 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S5 KEY (1.16 in needed, box 1.22 in, must end above 3.41 in, ends 2.88)",
+   true
+  ],
+  [
+   "[EN] KEY: arrow tip lies under the box",
+   true
+  ],
+  [
+   "[EN] text fits: S5 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S5 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S5 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S5 KEY (1.16 in needed, box 1.22 in, must end above 3.41 in, ends 2.88)",
+   true
+  ],
+  [
+   "[EN] KEY: arrow tip lies under the box",
+   true
+  ],
+  [
+   "[EN] text fits: S5 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S5 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S5 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S6 KEY (2.31 in needed, box 2.37 in)",
+   true
+  ],
+  [
+   "[EN] v2 slide 6 KEY ends above the bottom line",
+   true
+  ],
+  [
+   "[EN] text fits: S6 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S6 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S6 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S6 KEY (2.31 in needed, box 2.37 in)",
+   true
+  ],
+  [
+   "[EN] v2 slide 6 KEY ends above the bottom line",
+   true
+  ],
+  [
+   "[EN] text fits: S6 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S6 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S6 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "v2 slide 1: both models 0.72 in trials 3-5",
+   true
+  ],
+  [
+   "[KR] text fits: S1 KEY (1.33 in needed, box 1.39 in, must end above 3.02 in, ends 3.00)",
+   true
+  ],
+  [
+   "[KR] KEY: arrow tip lies left of the box",
+   true
+  ],
+  [
+   "[KR] text fits: S1 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S1 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S1 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "v2 slide 1: both models 0.72 in trials 3-5",
+   true
+  ],
+  [
+   "[KR] text fits: S1 KEY (1.33 in needed, box 1.39 in, must end above 3.02 in, ends 3.00)",
+   true
+  ],
+  [
+   "[KR] KEY: arrow tip lies left of the box",
+   true
+  ],
+  [
+   "[KR] text fits: S1 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S1 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S1 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table head  (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table head Hjort 2026 (Pavlovian) (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table head 우리 과제 (PR licking) (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r0c0 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r0c1 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r0c2 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r1c0 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r1c1 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r1c2 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r2c0 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r2c1 (0.57 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r2c2 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r3c0 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r3c1 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r3c2 (0.57 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r4c0 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r4c1 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r4c2 (0.57 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r5c0 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r5c1 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r5c2 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r6c0 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r6c1 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r6c2 (0.57 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] v2 mapping table ends above the bottom line (ends 5.45 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 KEY (0.55 in needed, box 0.61 in, must end above 4.05 in, ends 3.84)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table head  (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table head Hjort 2026 (Pavlovian) (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table head 우리 과제 (PR licking) (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r0c0 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r0c1 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r0c2 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r1c0 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r1c1 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r1c2 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r2c0 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r2c1 (0.57 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r2c2 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r3c0 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r3c1 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r3c2 (0.57 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r4c0 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r4c1 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r4c2 (0.57 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r5c0 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r5c1 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r5c2 (0.33 in needed, box 0.39 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r6c0 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r6c1 (0.33 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 table r6c2 (0.57 in needed, box 0.63 in)",
+   true
+  ],
+  [
+   "[KR] v2 mapping table ends above the bottom line (ends 5.45 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 KEY (0.55 in needed, box 0.61 in, must end above 4.05 in, ends 3.84)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S3 KEY (0.83 in needed, box 0.89 in, must end above 2.86 in, ends 2.78)",
+   true
+  ],
+  [
+   "[KR] KEY: arrow tip lies under the box",
+   true
+  ],
+  [
+   "[KR] text fits: S3 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S3 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S3 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S3 KEY (0.83 in needed, box 0.89 in, must end above 2.86 in, ends 2.78)",
+   true
+  ],
+  [
+   "[KR] KEY: arrow tip lies under the box",
+   true
+  ],
+  [
+   "[KR] text fits: S3 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S3 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S3 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "v2: PH / no learning dBIC >= 70 (min 70.5)",
+   true
+  ],
+  [
+   "v2: LOMO best = RPE2a (Active), today's outcome (Passive)",
+   true
+  ],
+  [
+   "[KR] text fits: S4 KEY (0.83 in needed, box 0.89 in, must end above 2.72 in, ends 2.49)",
+   true
+  ],
+  [
+   "[KR] KEY: arrow tip lies under the box",
+   true
+  ],
+  [
+   "[KR] text fits: S4 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S4 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S4 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "v2: PH / no learning dBIC >= 70 (min 70.5)",
+   true
+  ],
+  [
+   "v2: LOMO best = RPE2a (Active), today's outcome (Passive)",
+   true
+  ],
+  [
+   "[KR] text fits: S4 KEY (0.83 in needed, box 0.89 in, must end above 2.72 in, ends 2.49)",
+   true
+  ],
+  [
+   "[KR] KEY: arrow tip lies under the box",
+   true
+  ],
+  [
+   "[KR] text fits: S4 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S4 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S4 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S5 KEY (1.22 in needed, box 1.28 in, must end above 3.41 in, ends 2.94)",
+   true
+  ],
+  [
+   "[KR] KEY: arrow tip lies under the box",
+   true
+  ],
+  [
+   "[KR] text fits: S5 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S5 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S5 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S5 KEY (1.22 in needed, box 1.28 in, must end above 3.41 in, ends 2.94)",
+   true
+  ],
+  [
+   "[KR] KEY: arrow tip lies under the box",
+   true
+  ],
+  [
+   "[KR] text fits: S5 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S5 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S5 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S6 KEY (2.42 in needed, box 2.48 in)",
+   true
+  ],
+  [
+   "[KR] v2 slide 6 KEY ends above the bottom line",
+   true
+  ],
+  [
+   "[KR] text fits: S6 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S6 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S6 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S6 KEY (2.42 in needed, box 2.48 in)",
+   true
+  ],
+  [
+   "[KR] v2 slide 6 KEY ends above the bottom line",
+   true
+  ],
+  [
+   "[KR] text fits: S6 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S6 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S6 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "v2 printed v2s1_bic = 2.6 matches 2.57",
+   true
+  ],
+  [
+   "v2 printed v2s1_lo = 5.7 matches 5.69",
+   true
+  ],
+  [
+   "v2 printed v2s1_hi = 18.6 matches 18.63",
+   true
+  ],
+  [
+   "v2 printed v2s1_hp = 0.010 matches 0.0104173",
+   true
+  ],
+  [
+   "v2 printed v2s1_m_trials_0_2 = 0.96 matches 0.958",
+   true
+  ],
+  [
+   "v2 printed v2s1_m_trials_3_5 = 0.72 matches 0.721",
+   true
+  ],
+  [
+   "v2 printed v2s1_r_trials_0_2 = 0.86 matches 0.864",
+   true
+  ],
+  [
+   "v2 printed v2s1_r_trials_3_5 = 0.72 matches 0.717",
+   true
+  ],
+  [
+   "v2 printed v2s1_l_trials_0_2 = 1.03 matches 1.034",
+   true
+  ],
+  [
+   "v2 printed v2s1_l_trials_3_5 = 0.93 matches 0.926",
+   true
+  ],
+  [
+   "v2 printed v2s2_bins = 240 matches 240",
+   true
+  ],
+  [
+   "v2 printed v2s3_a14 = −0.06 matches -0.0555556",
+   true
+  ],
+  [
+   "v2 printed v2s3_a14lo = −0.27 matches -0.265054",
+   true
+  ],
+  [
+   "v2 printed v2s3_a14hi = +0.15 matches 0.153943",
+   true
+  ],
+  [
+   "v2 printed v2s3_p14 = +0.40 matches 0.404762",
+   true
+  ],
+  [
+   "v2 printed v2s3_a15 = −0.27 matches -0.266667",
+   true
+  ],
+  [
+   "v2 printed v2s3_a16 = −0.35 matches -0.35",
+   true
+  ],
+  [
+   "v2 printed v2s3_a17 = +0.35 matches 0.35",
+   true
+  ],
+  [
+   "v2 printed v2s3_p17 = −0.28 matches -0.280952",
+   true
+  ],
+  [
+   "v2 printed v2s3_asy14 = 0.18 matches 0.177778",
+   true
+  ],
+  [
+   "v2 printed v2s3_asy17 = 0.35 matches 0.35",
+   true
+  ],
+  [
+   "v2 printed v2s3_p_a14 = 0.53 matches 0.525731",
+   true
+  ],
+  [
+   "v2 printed v2s3_p_p14 = 0.0002 matches 0.000240939",
+   true
+  ],
+  [
+   "v2 printed v2s3_p_a15 = 0.018 matches 0.0179629",
+   true
+  ],
+  [
+   "v2 printed v2s3_p_a16 = 0.015 matches 0.0148887",
+   true
+  ],
+  [
+   "v2 printed v2s3_p_a17 = 0.014 matches 0.0139883",
+   true
+  ],
+  [
+   "v2 printed v2s3_p_p17 = 0.013 matches 0.0126192",
+   true
+  ],
+  [
+   "v2 printed v2s3_p_w14 = 0.001 matches 0.00112952",
+   true
+  ],
+  [
+   "v2 printed v2s3_p_asy = 0.21 matches 0.205707",
+   true
+  ],
+  [
+   "v2 printed v2s4_Active_RPE2a = 0 matches 0",
+   true
+  ],
+  [
+   "v2 printed v2s4_Active_mRPE = 9 matches 9.12",
+   true
+  ],
+  [
+   "v2 printed v2s4_Active_RPE = 11 matches 11.27",
+   true
+  ],
+  [
+   "v2 printed v2s4_Active_today's outcome = 22 matches 22.04",
+   true
+  ],
+  [
+   "v2 printed v2s4_Active_eMack = 13 matches 12.72",
+   true
+  ],
+  [
+   "v2 printed v2s4_Active_RPEt-1 = 14 matches 13.51",
+   true
+  ],
+  [
+   "v2 printed v2s4_Passive_RPE2a = 14 matches 13.74",
+   true
+  ],
+  [
+   "v2 printed v2s4_Passive_mRPE = 20 matches 20.23",
+   true
+  ],
+  [
+   "v2 printed v2s4_Passive_RPE = 7 matches 7.34",
+   true
+  ],
+  [
+   "v2 printed v2s4_Passive_today's outcome = 0 matches 0",
+   true
+  ],
+  [
+   "v2 printed v2s4_Passive_eMack = 29 matches 28.52",
+   true
+  ],
+  [
+   "v2 printed v2s4_Passive_RPEt-1 = 9 matches 9.1",
+   true
+  ],
+  [
+   "v2 printed v2s4_cv_m = 1.3 matches 1.31",
+   true
+  ],
+  [
+   "v2 printed v2s4_cv_r = 8.3 matches 8.29",
+   true
+  ],
+  [
+   "v2 printed v2s4_cv_t = 15.5 matches 15.47",
+   true
+  ],
+  [
+   "v2 printed v2s4_cv_p = 2.6 matches 2.61",
+   true
+  ],
+  [
+   "v2 printed v2s4_am = 0.01 matches 0.01",
+   true
+  ],
+  [
+   "v2 printed v2s5_ra = 2 matches 1.7",
+   true
+  ],
+  [
+   "v2 printed v2s5_rp = 1 matches 0.7",
+   true
+  ],
+  [
+   "v2 printed v2s5_gm = 16 matches 16",
+   true
+  ],
+  [
+   "v2 printed v2s5_gfp = 0 matches 0",
+   true
+  ],
+  [
+   "v2 printed v2s5_am = 0.01 matches 0.01",
+   true
+  ],
+  [
+   "v2 printed v2s5_ap = 0.12 matches 0.1192",
+   true
+  ],
+  [
+   "v2 printed v2s5_fa = 99.5 matches 99.5",
+   true
+  ],
+  [
+   "v2 printed v2s5_plo = 52 matches 52",
+   true
+  ],
+  [
+   "v2 printed v2s5_phi = 62 matches 62",
+   true
+  ],
+  [
+   "v2 printed v2s6_na = 54 matches 54",
+   true
+  ],
+  [
+   "v2 printed v2s6_nw = 68 matches 68",
+   true
+  ],
+  [
+   "v2 printed v2s6_np = 16 matches 16",
+   true
+  ],
+  [
+   "v2 printed v2s6_dA = 9 matches 9.12",
+   true
+  ],
+  [
+   "v2 printed v2s6_dP = 20 matches 20.23",
+   true
+  ],
+  [
+   "v2 printed v2s6_rd = 0.18 matches 0.183579",
+   true
+  ]
+ ],
+ "fit": [
+  {
+   "lang": "EN",
+   "name": "S1 KEY",
+   "need_in": 1.302,
+   "box_in": 1.362,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S1 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S1 Bottom line",
+   "need_in": 0.642,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S1 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S1 KEY",
+   "need_in": 1.302,
+   "box_in": 1.362,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S1 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S1 Bottom line",
+   "need_in": 0.642,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S1 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table head ",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table head Hjort 2026 (Pavlovian)",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table head Our task (PR licking)",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r0c0",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r0c1",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r0c2",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r1c0",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r1c1",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r1c2",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r2c0",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r2c1",
+   "need_in": 0.541,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r2c2",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r3c0",
+   "need_in": 0.32,
+   "box_in": 0.821,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r3c1",
+   "need_in": 0.32,
+   "box_in": 0.821,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r3c2",
+   "need_in": 0.761,
+   "box_in": 0.821,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r4c0",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r4c1",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r4c2",
+   "need_in": 0.541,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r5c0",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r5c1",
+   "need_in": 0.541,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r5c2",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r6c0",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r6c1",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r6c2",
+   "need_in": 0.541,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 KEY",
+   "need_in": 0.71,
+   "box_in": 0.77,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table head ",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table head Hjort 2026 (Pavlovian)",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table head Our task (PR licking)",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r0c0",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r0c1",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r0c2",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r1c0",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r1c1",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r1c2",
+   "need_in": 0.32,
+   "box_in": 0.38,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r2c0",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r2c1",
+   "need_in": 0.541,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r2c2",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r3c0",
+   "need_in": 0.32,
+   "box_in": 0.821,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r3c1",
+   "need_in": 0.32,
+   "box_in": 0.821,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r3c2",
+   "need_in": 0.761,
+   "box_in": 0.821,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r4c0",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r4c1",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r4c2",
+   "need_in": 0.541,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r5c0",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r5c1",
+   "need_in": 0.541,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r5c2",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r6c0",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r6c1",
+   "need_in": 0.32,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 table r6c2",
+   "need_in": 0.541,
+   "box_in": 0.601,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 KEY",
+   "need_in": 0.71,
+   "box_in": 0.77,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S3 KEY",
+   "need_in": 0.786,
+   "box_in": 0.846,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S3 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S3 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S3 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S3 KEY",
+   "need_in": 0.786,
+   "box_in": 0.846,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S3 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S3 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S3 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S4 KEY",
+   "need_in": 0.786,
+   "box_in": 0.846,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S4 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S4 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S4 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S4 KEY",
+   "need_in": 0.786,
+   "box_in": 0.846,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S4 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S4 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S4 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S5 KEY",
+   "need_in": 1.159,
+   "box_in": 1.219,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S5 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S5 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S5 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S5 KEY",
+   "need_in": 1.159,
+   "box_in": 1.219,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S5 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S5 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S5 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S6 KEY",
+   "need_in": 2.307,
+   "box_in": 2.367,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S6 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S6 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S6 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S6 KEY",
+   "need_in": 2.307,
+   "box_in": 2.367,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S6 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S6 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S6 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S1 KEY",
+   "need_in": 1.328,
+   "box_in": 1.388,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S1 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S1 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S1 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S1 KEY",
+   "need_in": 1.328,
+   "box_in": 1.388,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S1 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S1 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S1 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table head ",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table head Hjort 2026 (Pavlovian)",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table head 우리 과제 (PR licking)",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r0c0",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r0c1",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r0c2",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r1c0",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r1c1",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r1c2",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r2c0",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r2c1",
+   "need_in": 0.567,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r2c2",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r3c0",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r3c1",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r3c2",
+   "need_in": 0.567,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r4c0",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r4c1",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r4c2",
+   "need_in": 0.567,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r5c0",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r5c1",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r5c2",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r6c0",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r6c1",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r6c2",
+   "need_in": 0.567,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 KEY",
+   "need_in": 0.547,
+   "box_in": 0.607,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table head ",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table head Hjort 2026 (Pavlovian)",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table head 우리 과제 (PR licking)",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r0c0",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r0c1",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r0c2",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r1c0",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r1c1",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r1c2",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r2c0",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r2c1",
+   "need_in": 0.567,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r2c2",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r3c0",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r3c1",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r3c2",
+   "need_in": 0.567,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r4c0",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r4c1",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r4c2",
+   "need_in": 0.567,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r5c0",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r5c1",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r5c2",
+   "need_in": 0.333,
+   "box_in": 0.393,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r6c0",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r6c1",
+   "need_in": 0.333,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 table r6c2",
+   "need_in": 0.567,
+   "box_in": 0.627,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 KEY",
+   "need_in": 0.547,
+   "box_in": 0.607,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S3 KEY",
+   "need_in": 0.829,
+   "box_in": 0.889,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S3 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S3 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S3 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S3 KEY",
+   "need_in": 0.829,
+   "box_in": 0.889,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S3 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S3 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S3 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S4 KEY",
+   "need_in": 0.829,
+   "box_in": 0.889,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S4 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S4 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S4 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S4 KEY",
+   "need_in": 0.829,
+   "box_in": 0.889,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S4 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S4 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S4 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S5 KEY",
+   "need_in": 1.218,
+   "box_in": 1.278,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S5 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S5 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S5 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S5 KEY",
+   "need_in": 1.218,
+   "box_in": 1.278,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S5 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S5 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S5 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S6 KEY",
+   "need_in": 2.421,
+   "box_in": 2.481,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S6 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S6 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S6 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S6 KEY",
+   "need_in": 2.421,
+   "box_in": 2.481,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S6 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S6 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S6 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "n_pr_sessions": 179,
+ "n_trials": 4929,
+ "n_complete": 4750,
+ "incomplete_per_session": {
+  "1": 179
+ },
+ "req_equals_trial_plus_1": true,
+ "session_end_s": {
+  "count": 178.0,
+  "mean": 918.2,
+  "std": 26.0,
+  "min": 795.5,
+  "25%": 904.1,
+  "50%": 913.3,
+  "75%": 926.1,
+  "max": 1025.9
+ },
+ "rewards_vs_raw_table": {
+  "n": 179,
+  "max_absdiff": 0
+ }
+}

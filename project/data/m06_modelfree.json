@@ -1,0 +1,192 @@
+{
+ "day14_morphine_to_water": {
+  "Active": {
+   "n": 6,
+   "mean_change_by_block": [
+    -0.028,
+    0.139,
+    -0.111,
+    -0.25,
+    -0.028
+   ],
+   "sem_by_block": [
+    0.051,
+    0.204,
+    0.17,
+    0.181,
+    0.139
+   ],
+   "change_first9min": -0.0,
+   "change_last6min": -0.139,
+   "late_minus_early": -0.139,
+   "p_t_late_vs_early": 0.39677686262266254,
+   "p_wilcoxon_exact": 0.4375,
+   "n_mice_late_change_more_negative": 4,
+   "p_t_first9min_vs0": 0.9999999999999998,
+   "p_t_last6min_vs0": 0.37351528462995087,
+   "per_mouse_first9": {
+    "0910_black": 0.056,
+    "0911_red": 0.278,
+    "0911_white": 0.056,
+    "6099_black": -0.0,
+    "6099_orange": -0.056,
+    "6100_black": -0.333
+   },
+   "per_mouse_last6": {
+    "0910_black": -0.333,
+    "0911_red": 0.083,
+    "0911_white": -0.583,
+    "6099_black": 0.417,
+    "6099_orange": -0.167,
+    "6100_black": -0.25
+   }
+  },
+  "Passive": {
+   "n": 7,
+   "mean_change_by_block": [
+    0.262,
+    0.405,
+    0.381,
+    0.524,
+    0.452
+   ],
+   "sem_by_block": [
+    0.095,
+    0.181,
+    0.14,
+    0.128,
+    0.101
+   ],
+   "change_first9min": 0.349,
+   "change_last6min": 0.488,
+   "late_minus_early": 0.139,
+   "p_t_late_vs_early": 0.32158006162805464,
+   "p_wilcoxon_exact": 0.578125,
+   "n_mice_late_change_more_negative": 4,
+   "p_t_first9min_vs0": 0.004787871965724743,
+   "p_t_last6min_vs0": 0.001153226855413842,
+   "per_mouse_first9": {
+    "0910_orange": 0.056,
+    "0910_red": 0.5,
+    "0911_black": 0.611,
+    "0911_orange": 0.556,
+    "6099_red": 0.222,
+    "6100_orange": 0.333,
+    "6100_red": 0.167
+   },
+   "per_mouse_last6": {
+    "0910_orange": 0.833,
+    "0910_red": 0.333,
+    "0911_black": 0.583,
+    "0911_orange": 0.417,
+    "6099_red": 0.167,
+    "6100_orange": 0.667,
+    "6100_red": 0.417
+   }
+  }
+ },
+ "day17_water_to_morphine": {
+  "Active": {
+   "n": 6,
+   "mean_change_by_block": [
+    0.083,
+    0.417,
+    0.444,
+    0.5,
+    0.306
+   ],
+   "sem_by_block": [
+    0.071,
+    0.218,
+    0.17,
+    0.114,
+    0.109
+   ],
+   "change_first9min": 0.315,
+   "change_last6min": 0.403,
+   "late_minus_early": 0.088,
+   "p_t_late_vs_early": 0.4237520050475773,
+   "p_wilcoxon_exact": 0.4375,
+   "n_mice_late_change_more_negative": 2,
+   "p_t_first9min_vs0": 0.03822831689397003,
+   "p_t_last6min_vs0": 0.008972091725305092,
+   "per_mouse_first9": {
+    "0910_black": 0.778,
+    "0911_red": -0.056,
+    "0911_white": 0.389,
+    "6099_black": 0.333,
+    "6099_orange": 0.278,
+    "6100_black": 0.167
+   },
+   "per_mouse_last6": {
+    "0910_black": 0.75,
+    "0911_red": 0.333,
+    "0911_white": 0.083,
+    "6099_black": 0.417,
+    "6099_orange": 0.583,
+    "6100_black": 0.25
+   }
+  },
+  "Passive": {
+   "n": 7,
+   "mean_change_by_block": [
+    -0.286,
+    -0.381,
+    -0.095,
+    -0.19,
+    -0.452
+   ],
+   "sem_by_block": [
+    0.161,
+    0.144,
+    0.181,
+    0.099,
+    0.119
+   ],
+   "change_first9min": -0.254,
+   "change_last6min": -0.321,
+   "late_minus_early": -0.067,
+   "p_t_late_vs_early": 0.6810993990397504,
+   "p_wilcoxon_exact": 0.8125,
+   "n_mice_late_change_more_negative": 4,
+   "p_t_first9min_vs0": 0.09259306137648453,
+   "p_t_last6min_vs0": 0.0070376190740530946,
+   "per_mouse_first9": {
+    "0910_orange": -0.056,
+    "0910_red": -0.611,
+    "0911_black": -0.667,
+    "0911_orange": -0.167,
+    "6099_red": -0.5,
+    "6100_orange": 0.167,
+    "6100_red": 0.056
+   },
+   "per_mouse_last6": {
+    "0910_orange": -0.5,
+    "0910_red": -0.083,
+    "0911_black": -0.333,
+    "0911_orange": -0.667,
+    "6099_red": -0.333,
+    "6100_orange": -0.25,
+    "6100_red": -0.083
+   }
+  }
+ },
+ "asymmetry_first9min_abs_change_day17_vs_day14": {
+  "Active": {
+   "n": 6,
+   "mean_abs_day14": 0.13,
+   "mean_abs_day17": 0.333,
+   "n_mice_day17_larger": 4,
+   "p_t": 0.21584036744746615,
+   "p_wilcoxon_exact": 0.21875
+  },
+  "Passive": {
+   "n": 7,
+   "mean_abs_day14": 0.349,
+   "mean_abs_day17": 0.318,
+   "n_mice_day17_larger": 3,
+   "p_t": 0.7108576317647286,
+   "p_wilcoxon_exact": 0.6875
+  }
+ }
+}

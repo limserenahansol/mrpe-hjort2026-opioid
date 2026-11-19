@@ -1,0 +1,15 @@
+mouse_key,group,pair,sex,cage
+6100_black,Active,1,F,6100
+0911_red,Active,2,F,0911
+0911_white,Active,3,F,0911
+0910_black,Active,4,M,0910
+6099_orange,Active,5,M,6099
+6099_black,Active,6,M,6099
+0910_orange,Passive,4,M,0910
+0910_red,Passive,4,M,0910
+0911_black,Passive,3,F,0911
+0911_orange,Passive,2,F,0911
+6099_red,Passive,5,M,6099
+6099_white,Passive,6,M,6099
+6100_orange,Passive,1,F,6100
+6100_red,Passive,1,F,6100

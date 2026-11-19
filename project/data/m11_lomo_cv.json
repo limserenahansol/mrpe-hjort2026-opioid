@@ -1,0 +1,104 @@
+{
+ "Active": {
+  "total_test_negLL": {
+   "RPE2a": 812.16,
+   "RPE": 820.45,
+   "mRPE": 813.46,
+   "RPEt-1": 821.02,
+   "today's outcome": 827.63,
+   "no learning": 874.39
+  },
+  "best": "RPE2a",
+  "delta_from_best": {
+   "RPE2a": 0.0,
+   "RPE": 8.29,
+   "mRPE": 1.31,
+   "RPEt-1": 8.86,
+   "today's outcome": 15.47,
+   "no learning": 62.24
+  },
+  "vs_best": {
+   "RPE": {
+    "sum": 8.29,
+    "n_mice_best_better": 5,
+    "n": 6,
+    "p_wilcoxon": 0.15625
+   },
+   "mRPE": {
+    "sum": 1.31,
+    "n_mice_best_better": 2,
+    "n": 6,
+    "p_wilcoxon": 0.6875
+   },
+   "RPEt-1": {
+    "sum": 8.86,
+    "n_mice_best_better": 5,
+    "n": 6,
+    "p_wilcoxon": 0.21875
+   },
+   "today's outcome": {
+    "sum": 15.47,
+    "n_mice_best_better": 5,
+    "n": 6,
+    "p_wilcoxon": 0.0625
+   },
+   "no learning": {
+    "sum": 62.24,
+    "n_mice_best_better": 6,
+    "n": 6,
+    "p_wilcoxon": 0.03125
+   }
+  }
+ },
+ "Passive": {
+  "total_test_negLL": {
+   "RPE2a": 1004.48,
+   "RPE": 1003.68,
+   "mRPE": 1003.32,
+   "RPEt-1": 1002.71,
+   "today's outcome": 1001.87,
+   "no learning": 1098.42
+  },
+  "best": "today's outcome",
+  "delta_from_best": {
+   "RPE2a": 2.61,
+   "RPE": 1.8,
+   "mRPE": 1.45,
+   "RPEt-1": 0.84,
+   "today's outcome": 0.0,
+   "no learning": 96.54
+  },
+  "vs_best": {
+   "RPE2a": {
+    "sum": 2.61,
+    "n_mice_best_better": 4,
+    "n": 7,
+    "p_wilcoxon": 0.296875
+   },
+   "RPE": {
+    "sum": 1.8,
+    "n_mice_best_better": 3,
+    "n": 7,
+    "p_wilcoxon": 0.84375
+   },
+   "mRPE": {
+    "sum": 1.45,
+    "n_mice_best_better": 3,
+    "n": 7,
+    "p_wilcoxon": 0.9375
+   },
+   "RPEt-1": {
+    "sum": 0.84,
+    "n_mice_best_better": 4,
+    "n": 7,
+    "p_wilcoxon": 0.6875
+   },
+   "no learning": {
+    "sum": 96.54,
+    "n_mice_best_better": 7,
+    "n": 7,
+    "p_wilcoxon": 0.015625
+   }
+  }
+ }
+}

@@ -1,0 +1,5896 @@
+[
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "BIC change from best, meta-RPE",
+  "value": 2.57,
+  "file": "m03_paper_data_summary.json",
+  "path": [
+   "BIC",
+   "mean_change_from_best",
+   "mRPE"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "BIC change from best, RPE",
+  "value": 5.69,
+  "file": "m03_paper_data_summary.json",
+  "path": [
+   "BIC",
+   "mean_change_from_best",
+   "RPE"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "BIC change from best, RPE 2a",
+  "value": 6.2,
+  "file": "m03_paper_data_summary.json",
+  "path": [
+   "BIC",
+   "mean_change_from_best",
+   "RPE2a"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "BIC change from best, RPE t-1",
+  "value": 6.24,
+  "file": "m03_paper_data_summary.json",
+  "path": [
+   "BIC",
+   "mean_change_from_best",
+   "RPEt-1"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "BIC change from best, PH",
+  "value": 12.35,
+  "file": "m03_paper_data_summary.json",
+  "path": [
+   "BIC",
+   "mean_change_from_best",
+   "PH"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "BIC change from best, eMack",
+  "value": 18.63,
+  "file": "m03_paper_data_summary.json",
+  "path": [
+   "BIC",
+   "mean_change_from_best",
+   "eMack"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "paired t on BIC vs meta-RPE, Holm p, RPE",
+  "value": 0.010417301987964556,
+  "file": "m03_paper_data_summary.json",
+  "path": [
+   "BIC",
+   "vs_mRPE",
+   "RPE",
+   "p_t_holm"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "paired t on BIC vs meta-RPE, Holm p, RPE 2a",
+  "value": 0.0032203155147264868,
+  "file": "m03_paper_data_summary.json",
+  "path": [
+   "BIC",
+   "vs_mRPE",
+   "RPE2a",
+   "p_t_holm"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "paired t on BIC vs meta-RPE, Holm p, RPE t-1",
+  "value": 0.010417301987964556,
+  "file": "m03_paper_data_summary.json",
+  "path": [
+   "BIC",
+   "vs_mRPE",
+   "RPEt-1",
+   "p_t_holm"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "paired t on BIC vs meta-RPE, Holm p, PH",
+  "value": 7.823351972835831e-07,
+  "file": "m03_paper_data_summary.json",
+  "path": [
+   "BIC",
+   "vs_mRPE",
+   "PH",
+   "p_t_holm"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "paired t on BIC vs meta-RPE, Holm p, eMack",
+  "value": 9.386283632945289e-11,
+  "file": "m03_paper_data_summary.json",
+  "path": [
+   "BIC",
+   "vs_mRPE",
+   "eMack",
+   "p_t_holm"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "negLL: mice where meta-RPE is best (of 40)",
+  "value": 30,
+  "file": "m03_paper_data_summary.json",
+  "path": [
+   "negLL",
+   "n_best",
+   "mRPE"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "median meta-RPE parameters",
+  "value": {
+   "alpha": 1.242,
+   "beta": 4.183,
+   "d_CD": 0.026,
+   "e_CE": 0.01
+  },
+  "file": "m03_paper_data_summary.json",
+  "path": [
+   "mRPE_params_median"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "mice with d < e (of 40)",
+  "value": 8,
+  "file": "m03_paper_data_summary.json",
+  "path": [
+   "mRPE_d_less_than_e_n"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "Fig. 1 redrawn: licking (running mean, 5 trials)",
+  "value": {
+   "trials_0_2": 1.034,
+   "trials_3_5": 0.926,
+   "trials_6_9": 0.703,
+   "trials_10_19": 0.54
+  },
+  "file": "m07_fig1_numbers.json",
+  "path": [
+   "licking (running mean, 5 trials)"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "Fig. 1 redrawn: RPE model value",
+  "value": {
+   "trials_0_2": 0.864,
+   "trials_3_5": 0.717,
+   "trials_6_9": 0.513,
+   "trials_10_19": 0.344
+  },
+  "file": "m07_fig1_numbers.json",
+  "path": [
+   "RPE model value"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "Fig. 1 redrawn: meta-RPE model value",
+  "value": {
+   "trials_0_2": 0.958,
+   "trials_3_5": 0.721,
+   "trials_6_9": 0.515,
+   "trials_10_19": 0.29
+  },
+  "file": "m07_fig1_numbers.json",
+  "path": [
+   "meta-RPE model value"
+  ],
+  "note": ""
+ },
+ {
+  "section": "1. Port check on the authors' 40 mice (m03, m07)",
+  "quantity": "gain M peak, trials after reversal",
+  "value": 11,
+  "file": "m07_fig1_numbers.json",
+  "path": [
+   "gain_M_peak_trial_from_reversal"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day14_vs_13 Active mean",
+  "value": -0.055555555555555636,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day14_vs_13",
+   "Active",
+   "whole",
+   "mean"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day14_vs_13 Active lo",
+  "value": -0.26505364311135166,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day14_vs_13",
+   "Active",
+   "whole",
+   "lo"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day14_vs_13 Active hi",
+  "value": 0.15394253200024038,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day14_vs_13",
+   "Active",
+   "whole",
+   "hi"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day14_vs_13 Active p",
+  "value": 0.525731013417216,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day14_vs_13",
+   "Active",
+   "whole",
+   "p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day14_vs_13 Passive mean",
+  "value": 0.40476190476190477,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day14_vs_13",
+   "Passive",
+   "whole",
+   "mean"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day14_vs_13 Passive lo",
+  "value": 0.2771210650382069,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day14_vs_13",
+   "Passive",
+   "whole",
+   "lo"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day14_vs_13 Passive hi",
+  "value": 0.5324027444856027,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day14_vs_13",
+   "Passive",
+   "whole",
+   "hi"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day14_vs_13 Passive p",
+  "value": 0.00024093906737377018,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day14_vs_13",
+   "Passive",
+   "whole",
+   "p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day14_vs_13 Active vs Passive Welch p",
+  "value": 0.0011295208342594276,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day14_vs_13",
+   "Active_vs_Passive_whole",
+   "welch_p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day15_vs_13 Active mean",
+  "value": -0.2666666666666667,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day15_vs_13",
+   "Active",
+   "whole",
+   "mean"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day15_vs_13 Active lo",
+  "value": -0.4645501486371453,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day15_vs_13",
+   "Active",
+   "whole",
+   "lo"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day15_vs_13 Active hi",
+  "value": -0.06878318469618816,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day15_vs_13",
+   "Active",
+   "whole",
+   "hi"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day15_vs_13 Active p",
+  "value": 0.01796288460994396,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day15_vs_13",
+   "Active",
+   "whole",
+   "p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day15_vs_13 Passive mean",
+  "value": 0.36666666666666675,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day15_vs_13",
+   "Passive",
+   "whole",
+   "mean"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day15_vs_13 Passive lo",
+  "value": 0.25551404108481435,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day15_vs_13",
+   "Passive",
+   "whole",
+   "lo"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day15_vs_13 Passive hi",
+  "value": 0.47781929224851916,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day15_vs_13",
+   "Passive",
+   "whole",
+   "hi"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day15_vs_13 Passive p",
+  "value": 0.00019361727955728158,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day15_vs_13",
+   "Passive",
+   "whole",
+   "p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day15_vs_13 Active vs Passive Welch p",
+  "value": 8.87084388756704e-05,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day15_vs_13",
+   "Active_vs_Passive_whole",
+   "welch_p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day16_vs_13 Active mean",
+  "value": -0.3500000000000001,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day16_vs_13",
+   "Active",
+   "whole",
+   "mean"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day16_vs_13 Active lo",
+  "value": -0.5971068743096271,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day16_vs_13",
+   "Active",
+   "whole",
+   "lo"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day16_vs_13 Active hi",
+  "value": -0.10289312569037318,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day16_vs_13",
+   "Active",
+   "whole",
+   "hi"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day16_vs_13 Active p",
+  "value": 0.014888665153659778,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day16_vs_13",
+   "Active",
+   "whole",
+   "p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day16_vs_13 Passive mean",
+  "value": 0.42857142857142866,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day16_vs_13",
+   "Passive",
+   "whole",
+   "mean"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day16_vs_13 Passive lo",
+  "value": 0.18231317144197623,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day16_vs_13",
+   "Passive",
+   "whole",
+   "lo"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day16_vs_13 Passive hi",
+  "value": 0.6748296857008811,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day16_vs_13",
+   "Passive",
+   "whole",
+   "hi"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day16_vs_13 Passive p",
+  "value": 0.005330372553627191,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day16_vs_13",
+   "Passive",
+   "whole",
+   "p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day16_vs_13 Active vs Passive Welch p",
+  "value": 0.0001629178751947368,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day16_vs_13",
+   "Active_vs_Passive_whole",
+   "welch_p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day17_vs_16 Active mean",
+  "value": 0.3499999999999999,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day17_vs_16",
+   "Active",
+   "whole",
+   "mean"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day17_vs_16 Active lo",
+  "value": 0.10688703508608241,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day17_vs_16",
+   "Active",
+   "whole",
+   "lo"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day17_vs_16 Active hi",
+  "value": 0.5931129649139174,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day17_vs_16",
+   "Active",
+   "whole",
+   "hi"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day17_vs_16 Active p",
+  "value": 0.013988310425728205,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day17_vs_16",
+   "Active",
+   "whole",
+   "p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day17_vs_16 Passive mean",
+  "value": -0.280952380952381,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day17_vs_16",
+   "Passive",
+   "whole",
+   "mean"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day17_vs_16 Passive lo",
+  "value": -0.47662208304910636,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day17_vs_16",
+   "Passive",
+   "whole",
+   "lo"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day17_vs_16 Passive hi",
+  "value": -0.08528267885565569,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day17_vs_16",
+   "Passive",
+   "whole",
+   "hi"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day17_vs_16 Passive p",
+  "value": 0.01261922654224541,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day17_vs_16",
+   "Passive",
+   "whole",
+   "p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day17_vs_16 Active vs Passive Welch p",
+  "value": 0.0004248401213413074,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day17_vs_16",
+   "Active_vs_Passive_whole",
+   "welch_p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day18_vs_16 Active mean",
+  "value": 0.288888888888889,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day18_vs_16",
+   "Active",
+   "whole",
+   "mean"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day18_vs_16 Active lo",
+  "value": 0.10159519601252759,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day18_vs_16",
+   "Active",
+   "whole",
+   "lo"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day18_vs_16 Active hi",
+  "value": 0.47618258176525036,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day18_vs_16",
+   "Active",
+   "whole",
+   "hi"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day18_vs_16 Active p",
+  "value": 0.01068975399796497,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day18_vs_16",
+   "Active",
+   "whole",
+   "p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day18_vs_16 Passive mean",
+  "value": -0.46666666666666673,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day18_vs_16",
+   "Passive",
+   "whole",
+   "mean"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day18_vs_16 Passive lo",
+  "value": -0.6364551068073079,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day18_vs_16",
+   "Passive",
+   "whole",
+   "lo"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day18_vs_16 Passive hi",
+  "value": -0.2968782265260255,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day18_vs_16",
+   "Passive",
+   "whole",
+   "hi"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day18_vs_16 Passive p",
+  "value": 0.0005257437562420877,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day18_vs_16",
+   "Passive",
+   "whole",
+   "p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "day18_vs_16 Active vs Passive Welch p",
+  "value": 1.3267819116819185e-05,
+  "file": "m11_modelfree.json",
+  "path": [
+   "day18_vs_16",
+   "Active_vs_Passive_whole",
+   "welch_p"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "asymmetry (Active) abs_day14",
+  "value": 0.1777777777777778,
+  "file": "m11_modelfree.json",
+  "path": [
+   "asymmetry_whole_session_abs_change_day17_vs_day14",
+   "Active",
+   "abs_day14"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "asymmetry (Active) abs_day17",
+  "value": 0.35000000000000003,
+  "file": "m11_modelfree.json",
+  "path": [
+   "asymmetry_whole_session_abs_change_day17_vs_day14",
+   "Active",
+   "abs_day17"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "asymmetry (Active) n_day17_larger",
+  "value": 4,
+  "file": "m11_modelfree.json",
+  "path": [
+   "asymmetry_whole_session_abs_change_day17_vs_day14",
+   "Active",
+   "n_day17_larger"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "asymmetry (Active) p_t",
+  "value": 0.20570669540806316,
+  "file": "m11_modelfree.json",
+  "path": [
+   "asymmetry_whole_session_abs_change_day17_vs_day14",
+   "Active",
+   "p_t"
+  ],
+  "note": ""
+ },
+ {
+  "section": "2. Model-free switch tests (m11; whole session; change vs reference day)",
+  "quantity": "asymmetry (Active) p_wilcoxon",
+  "value": 0.3125,
+  "file": "m11_modelfree.json",
+  "path": [
+   "asymmetry_whole_session_abs_change_day17_vs_day14",
+   "Active",
+   "p_wilcoxon"
+  ],
+  "note": ""
+ },
+ {
+  "section": "3. Per-mouse fits (m04) and per-mouse recovery (m05a)",
+  "quantity": "Active per-mouse BIC change from best (mean)",
+  "value": {
+   "mRPE": 9.91,
+   "RPE2a": 5.78,
+   "PH": 22.38,
+   "eMack": 16.27,
+   "RPEt-1": 4.28,
+   "RPE": 3.62,
+   "today's outcome": 2.19,
+   "no learning": 12.3
+  },
+  "file": "m04_summary.json",
+  "path": [
+   "Active",
+   "BIC",
+   "mean_change_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "3. Per-mouse fits (m04) and per-mouse recovery (m05a)",
+  "quantity": "Active meta-RPE readout beta per mouse",
+  "value": {
+   "0910_black": {
+    "alpha": 0.1613,
+    "d_CD": 0.01,
+    "e_CE": 0.1,
+    "b0": -1.6655,
+    "beta": 3.5796,
+    "g_time": -0.5977,
+    "g_first3min": 1.275
+   },
+   "0911_red": {
+    "alpha": 0.1725,
+    "d_CD": 0.01,
+    "e_CE": 0.0593,
+    "b0": -0.575,
+    "beta": 1.4306,
+    "g_time": -0.2617,
+    "g_first3min": 2.067
+   },
+   "0911_white": {
+    "alpha": 0.2568,
+    "d_CD": 0.01,
+    "e_CE": 0.1,
+    "b0": 0.4724,
+    "beta": 1.2477,
+    "g_time": -1.5721,
+    "g_first3min": 0.8056
+   },
+   "6099_black": {
+    "alpha": 0.0975,
+    "d_CD": 0.01,
+    "e_CE": 0.1,
+    "b0": -2.825,
+    "beta": 3.6143,
+    "g_time": -0.2855,
+    "g_first3min": 2.7454
+   },
+   "6099_orange": {
+    "alpha": 0.0723,
+    "d_CD": 0.01,
+    "e_CE": 0.01,
+    "b0": -0.0343,
+    "beta": 1.8851,
+    "g_time": -0.9447,
+    "g_first3min": 1.9395
+   },
+   "6100_black": {
+    "alpha": 0.928,
+    "d_CD": 0.0171,
+    "e_CE": 0.0133,
+    "b0": -1.5099,
+    "beta": 1.9378,
+    "g_time": 0.028,
+    "g_first3min": 1.3319
+   }
+  },
+  "file": "m04_summary.json",
+  "path": [
+   "Active",
+   "mRPE_params"
+  ],
+  "note": "beta = 5th entry; see JSON"
+ },
+ {
+  "section": "3. Per-mouse fits (m04) and per-mouse recovery (m05a)",
+  "quantity": "Active meta-RPE steps capped",
+  "value": {
+   "0910_black": 0,
+   "0911_red": 0,
+   "0911_white": 0,
+   "6099_black": 0,
+   "6099_orange": 0,
+   "6100_black": 0
+  },
+  "file": "m04_summary.json",
+  "path": [
+   "Active",
+   "mRPE_steps_capped"
+  ],
+  "note": ""
+ },
+ {
+  "section": "3. Per-mouse fits (m04) and per-mouse recovery (m05a)",
+  "quantity": "Active recovery: data made by meta-RPE -> BIC picks",
+  "value": {
+   "RPE": 0.475,
+   "mRPE": 0.017,
+   "today's outcome": 0.508
+  },
+  "file": "m05_recovery.json",
+  "path": [
+   "confusion_BIC",
+   "Active",
+   "mRPE"
+  ],
+  "note": ""
+ },
+ {
+  "section": "3. Per-mouse fits (m04) and per-mouse recovery (m05a)",
+  "quantity": "Active recovery: data made by RPE -> BIC picks",
+  "value": {
+   "RPE": 0.425,
+   "mRPE": 0.0,
+   "today's outcome": 0.575
+  },
+  "file": "m05_recovery.json",
+  "path": [
+   "confusion_BIC",
+   "Active",
+   "RPE"
+  ],
+  "note": ""
+ },
+ {
+  "section": "3. Per-mouse fits (m04) and per-mouse recovery (m05a)",
+  "quantity": "Active recovery: data made by instant switch -> BIC picks",
+  "value": {
+   "RPE": 0.008,
+   "mRPE": 0.0,
+   "today's outcome": 0.992
+  },
+  "file": "m05_recovery.json",
+  "path": [
+   "confusion_BIC",
+   "Active",
+   "today's outcome"
+  ],
+  "note": ""
+ },
+ {
+  "section": "3. Per-mouse fits (m04) and per-mouse recovery (m05a)",
+  "quantity": "Passive per-mouse BIC change from best (mean)",
+  "value": {
+   "mRPE": 13.88,
+   "RPE2a": 8.47,
+   "PH": 33.12,
+   "eMack": 19.27,
+   "RPEt-1": 4.83,
+   "RPE": 3.94,
+   "today's outcome": 0.5,
+   "no learning": 22.6
+  },
+  "file": "m04_summary.json",
+  "path": [
+   "Passive",
+   "BIC",
+   "mean_change_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "3. Per-mouse fits (m04) and per-mouse recovery (m05a)",
+  "quantity": "Passive meta-RPE readout beta per mouse",
+  "value": {
+   "0910_orange": {
+    "alpha": 1.8466,
+    "d_CD": 0.01,
+    "e_CE": 0.1,
+    "b0": 1.4111,
+    "beta": -1.6712,
+    "g_time": -1.1271,
+    "g_first3min": 1.0129
+   },
+   "0910_red": {
+    "alpha": 10.0,
+    "d_CD": 0.01,
+    "e_CE": 0.0105,
+    "b0": 0.8315,
+    "beta": -1.2943,
+    "g_time": -0.3763,
+    "g_first3min": 0.6444
+   },
+   "0911_black": {
+    "alpha": 4.5281,
+    "d_CD": 0.01,
+    "e_CE": 0.1,
+    "b0": 1.2281,
+    "beta": -2.14,
+    "g_time": -0.8343,
+    "g_first3min": 0.8844
+   },
+   "0911_orange": {
+    "alpha": 1.8421,
+    "d_CD": 0.01,
+    "e_CE": 0.01,
+    "b0": 2.6088,
+    "beta": -2.1752,
+    "g_time": -1.8704,
+    "g_first3min": 0.4917
+   },
+   "6099_red": {
+    "alpha": 0.0596,
+    "d_CD": 0.01,
+    "e_CE": 0.1,
+    "b0": 2.4847,
+    "beta": -2.5344,
+    "g_time": -2.0477,
+    "g_first3min": 1.1953
+   },
+   "6100_orange": {
+    "alpha": 10.0,
+    "d_CD": 0.1,
+    "e_CE": 0.1,
+    "b0": 0.4572,
+    "beta": -1.5223,
+    "g_time": 0.0886,
+    "g_first3min": 0.7888
+   },
+   "6100_red": {
+    "alpha": 1.9107,
+    "d_CD": 0.01,
+    "e_CE": 0.0129,
+    "b0": 0.6155,
+    "beta": -1.249,
+    "g_time": -0.4543,
+    "g_first3min": 0.854
+   }
+  },
+  "file": "m04_summary.json",
+  "path": [
+   "Passive",
+   "mRPE_params"
+  ],
+  "note": "beta = 5th entry; see JSON"
+ },
+ {
+  "section": "3. Per-mouse fits (m04) and per-mouse recovery (m05a)",
+  "quantity": "Passive meta-RPE steps capped",
+  "value": {
+   "0910_orange": 0,
+   "0910_red": 0,
+   "0911_black": 0,
+   "0911_orange": 0,
+   "6099_red": 0,
+   "6100_orange": 0,
+   "6100_red": 0
+  },
+  "file": "m04_summary.json",
+  "path": [
+   "Passive",
+   "mRPE_steps_capped"
+  ],
+  "note": ""
+ },
+ {
+  "section": "3. Per-mouse fits (m04) and per-mouse recovery (m05a)",
+  "quantity": "Passive recovery: data made by meta-RPE -> BIC picks",
+  "value": {
+   "RPE": 0.293,
+   "mRPE": 0.007,
+   "today's outcome": 0.7
+  },
+  "file": "m05_recovery.json",
+  "path": [
+   "confusion_BIC",
+   "Passive",
+   "mRPE"
+  ],
+  "note": ""
+ },
+ {
+  "section": "3. Per-mouse fits (m04) and per-mouse recovery (m05a)",
+  "quantity": "Passive recovery: data made by RPE -> BIC picks",
+  "value": {
+   "RPE": 0.236,
+   "mRPE": 0.0,
+   "today's outcome": 0.764
+  },
+  "file": "m05_recovery.json",
+  "path": [
+   "confusion_BIC",
+   "Passive",
+   "RPE"
+  ],
+  "note": ""
+ },
+ {
+  "section": "3. Per-mouse fits (m04) and per-mouse recovery (m05a)",
+  "quantity": "Passive recovery: data made by instant switch -> BIC picks",
+  "value": {
+   "RPE": 0.021,
+   "mRPE": 0.0,
+   "today's outcome": 0.979
+  },
+  "file": "m05_recovery.json",
+  "path": [
+   "confusion_BIC",
+   "Passive",
+   "today's outcome"
+  ],
+  "note": ""
+ },
+ {
+  "section": "3. Per-mouse fits (m04) and per-mouse recovery (m05a)",
+  "quantity": "recovery corr(d true, d fitted)",
+  "value": 0.18357890334574148,
+  "file": "m05_recovery.json",
+  "path": [
+   "corr_d"
+  ],
+  "note": ""
+ },
+ {
+  "section": "3. Per-mouse fits (m04) and per-mouse recovery (m05a)",
+  "quantity": "recovery corr(e true, e fitted)",
+  "value": 0.41425059158410976,
+  "file": "m05_recovery.json",
+  "path": [
+   "corr_e"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active instant switch: dBIC from best",
+  "value": 22.04,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "today's outcome",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active instant switch: negLL",
+  "value": 827.6271639701957,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "today's outcome",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active instant switch: learning parameters",
+  "value": [],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "today's outcome",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active RPE: dBIC from best",
+  "value": 11.27,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "RPE",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active RPE: negLL",
+  "value": 818.604624234195,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "RPE",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active RPE: learning parameters",
+  "value": [
+   0.03939868041626197
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "RPE",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active RPE 2a: dBIC from best",
+  "value": 0.0,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "RPE2a",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active RPE 2a: negLL",
+  "value": 809.3327990705791,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "RPE2a",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active RPE 2a: learning parameters",
+  "value": [
+   0.01,
+   0.11922634533952599
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "RPE2a",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active meta-RPE: dBIC from best",
+  "value": 9.12,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "mRPE",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active meta-RPE: negLL",
+  "value": 810.2579348314358,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "mRPE",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active meta-RPE: learning parameters",
+  "value": [
+   0.1814413047119132,
+   0.01,
+   0.1
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "mRPE",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active PH: dBIC from best",
+  "value": 70.45,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "PH",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active PH: negLL",
+  "value": 840.9228053031065,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "PH",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active PH: learning parameters",
+  "value": [
+   0.01,
+   0.05,
+   1.0
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "PH",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active eMack: dBIC from best",
+  "value": 12.72,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "eMack",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active eMack: negLL",
+  "value": 808.4215270285387,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "eMack",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active eMack: learning parameters",
+  "value": [
+   0.3,
+   0.009,
+   0.005601318011659307,
+   0.018011866562883533
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "eMack",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active RPE t-1: dBIC from best",
+  "value": 13.51,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "RPEt-1",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active RPE t-1: negLL",
+  "value": 819.7242929718021,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "RPEt-1",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active RPE t-1: learning parameters",
+  "value": [
+   0.06496989914383267
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "RPEt-1",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active no learning: dBIC from best",
+  "value": 71.94,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "no learning",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active no learning: negLL",
+  "value": 874.3927453796555,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "no learning",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active no learning: learning parameters",
+  "value": [],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Active",
+   "no learning",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active bootstrap (meta-RPE) d_CI",
+  "value": [
+   0.01,
+   0.01,
+   0.0328
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "bootstrap_over_mice",
+   "Active",
+   "d_CI"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active bootstrap (meta-RPE) e_CI",
+  "value": [
+   0.0217,
+   0.1,
+   0.1
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "bootstrap_over_mice",
+   "Active",
+   "e_CI"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active bootstrap (meta-RPE) frac_d_less_than_e",
+  "value": 0.983,
+  "file": "m05_group_fits.json",
+  "path": [
+   "bootstrap_over_mice",
+   "Active",
+   "frac_d_less_than_e"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active bootstrap (meta-RPE) frac_mRPE_better_BIC",
+  "value": 0.53,
+  "file": "m05_group_fits.json",
+  "path": [
+   "bootstrap_over_mice",
+   "Active",
+   "frac_mRPE_better_BIC"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive instant switch: dBIC from best",
+  "value": 0.0,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "today's outcome",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive instant switch: negLL",
+  "value": 1001.8707310506729,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "today's outcome",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive instant switch: learning parameters",
+  "value": [],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "today's outcome",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive RPE: dBIC from best",
+  "value": 7.34,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "RPE",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive RPE: negLL",
+  "value": 1001.8274138827463,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "RPE",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive RPE: learning parameters",
+  "value": [
+   0.6072897228011098
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "RPE",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive RPE 2a: dBIC from best",
+  "value": 13.74,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "RPE2a",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive RPE 2a: negLL",
+  "value": 1001.3136904998584,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "RPE2a",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive RPE 2a: learning parameters",
+  "value": [
+   0.17035704040033642,
+   0.6248171223901962
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "RPE2a",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive meta-RPE: dBIC from best",
+  "value": 20.23,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "mRPE",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive meta-RPE: negLL",
+  "value": 1000.8449983883061,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "mRPE",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive meta-RPE: learning parameters",
+  "value": [
+   3.2905135648438213,
+   0.01,
+   0.1
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "mRPE",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive PH: dBIC from best",
+  "value": 139.31,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "PH",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive PH: negLL",
+  "value": 1060.385600253829,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "PH",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive PH: learning parameters",
+  "value": [
+   0.01,
+   1.0,
+   1.0
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "PH",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive eMack: dBIC from best",
+  "value": 28.52,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "eMack",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive eMack: negLL",
+  "value": 1001.2800378375962,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "eMack",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive eMack: learning parameters",
+  "value": [
+   0.3,
+   0.1218930578977971,
+   0.002,
+   0.19
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "eMack",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive RPE t-1: dBIC from best",
+  "value": 9.1,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "RPEt-1",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive RPE t-1: negLL",
+  "value": 1002.7073433442051,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "RPEt-1",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive RPE t-1: learning parameters",
+  "value": [
+   0.5
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "RPEt-1",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive no learning: dBIC from best",
+  "value": 141.1,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "no learning",
+   "dBIC_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive no learning: negLL",
+  "value": 1098.4155930050733,
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "no learning",
+   "negLL"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive no learning: learning parameters",
+  "value": [],
+  "file": "m05_group_fits.json",
+  "path": [
+   "Passive",
+   "no learning",
+   "params"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive bootstrap (meta-RPE) d_CI",
+  "value": [
+   0.01,
+   0.01,
+   0.1
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "bootstrap_over_mice",
+   "Passive",
+   "d_CI"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive bootstrap (meta-RPE) e_CI",
+  "value": [
+   0.01,
+   0.1,
+   0.1
+  ],
+  "file": "m05_group_fits.json",
+  "path": [
+   "bootstrap_over_mice",
+   "Passive",
+   "e_CI"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive bootstrap (meta-RPE) frac_d_less_than_e",
+  "value": 0.908,
+  "file": "m05_group_fits.json",
+  "path": [
+   "bootstrap_over_mice",
+   "Passive",
+   "frac_d_less_than_e"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive bootstrap (meta-RPE) frac_mRPE_better_BIC",
+  "value": 0.001,
+  "file": "m05_group_fits.json",
+  "path": [
+   "bootstrap_over_mice",
+   "Passive",
+   "frac_mRPE_better_BIC"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active LOMO-CV held-out negLL, delta from best",
+  "value": {
+   "RPE2a": 0.0,
+   "RPE": 8.29,
+   "mRPE": 1.31,
+   "RPEt-1": 8.86,
+   "today's outcome": 15.47,
+   "no learning": 62.24
+  },
+  "file": "m11_lomo_cv.json",
+  "path": [
+   "Active",
+   "delta_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active LOMO-CV best model",
+  "value": "RPE2a",
+  "file": "m11_lomo_cv.json",
+  "path": [
+   "Active",
+   "best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active group recovery (50 sets per model)",
+  "value": {
+   "RPE": {
+    "RPE": 1.0,
+    "RPE2a": 0.0,
+    "mRPE": 0.0,
+    "today's outcome": 0.0
+   },
+   "RPE2a": {
+    "RPE": 0.4,
+    "RPE2a": 0.56,
+    "mRPE": 0.0,
+    "today's outcome": 0.04
+   },
+   "mRPE": {
+    "RPE": 0.3,
+    "RPE2a": 0.54,
+    "mRPE": 0.16,
+    "today's outcome": 0.0
+   },
+   "today's outcome": {
+    "RPE": 0.0,
+    "RPE2a": 0.0,
+    "mRPE": 0.0,
+    "today's outcome": 1.0
+   }
+  },
+  "file": "m11_group_recovery.json",
+  "path": [
+   "confusion",
+   "Active"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive LOMO-CV held-out negLL, delta from best",
+  "value": {
+   "RPE2a": 2.61,
+   "RPE": 1.8,
+   "mRPE": 1.45,
+   "RPEt-1": 0.84,
+   "today's outcome": 0.0,
+   "no learning": 96.54
+  },
+  "file": "m11_lomo_cv.json",
+  "path": [
+   "Passive",
+   "delta_from_best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive LOMO-CV best model",
+  "value": "today's outcome",
+  "file": "m11_lomo_cv.json",
+  "path": [
+   "Passive",
+   "best"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive group recovery (50 sets per model)",
+  "value": {
+   "RPE": {
+    "RPE": 0.38,
+    "today's outcome": 0.62
+   },
+   "RPE2a": {
+    "RPE": 0.42,
+    "today's outcome": 0.58
+   },
+   "mRPE": {
+    "RPE": 0.48,
+    "today's outcome": 0.52
+   },
+   "today's outcome": {
+    "RPE": 0.0,
+    "today's outcome": 1.0
+   }
+  },
+  "file": "m11_group_recovery.json",
+  "path": [
+   "confusion",
+   "Passive"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active RPE 2a full_fit",
+  "value": {
+   "a_minus": 0.01,
+   "a_plus": 0.1192
+  },
+  "file": "m08_bootstrap_asymmetry.json",
+  "path": [
+   "Active",
+   "full_fit"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active RPE 2a a_minus_CI",
+  "value": [
+   0.01,
+   0.01,
+   0.0321
+  ],
+  "file": "m08_bootstrap_asymmetry.json",
+  "path": [
+   "Active",
+   "a_minus_CI"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active RPE 2a a_plus_CI",
+  "value": [
+   0.0532,
+   0.1225,
+   1.0
+  ],
+  "file": "m08_bootstrap_asymmetry.json",
+  "path": [
+   "Active",
+   "a_plus_CI"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active RPE 2a frac_a_minus_less_than_a_plus",
+  "value": 0.995,
+  "file": "m08_bootstrap_asymmetry.json",
+  "path": [
+   "Active",
+   "frac_a_minus_less_than_a_plus"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active RPE 2a log10_ratio_plus_over_minus_CI",
+  "value": [
+   0.293,
+   1.088,
+   2.0
+  ],
+  "file": "m08_bootstrap_asymmetry.json",
+  "path": [
+   "Active",
+   "log10_ratio_plus_over_minus_CI"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive RPE 2a full_fit",
+  "value": {
+   "a_minus": 0.1704,
+   "a_plus": 0.6248
+  },
+  "file": "m08_bootstrap_asymmetry.json",
+  "path": [
+   "Passive",
+   "full_fit"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive RPE 2a a_minus_CI",
+  "value": [
+   0.01,
+   0.1675,
+   1.0
+  ],
+  "file": "m08_bootstrap_asymmetry.json",
+  "path": [
+   "Passive",
+   "a_minus_CI"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive RPE 2a a_plus_CI",
+  "value": [
+   0.1219,
+   0.621,
+   1.0
+  ],
+  "file": "m08_bootstrap_asymmetry.json",
+  "path": [
+   "Passive",
+   "a_plus_CI"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive RPE 2a frac_a_minus_less_than_a_plus",
+  "value": 0.781,
+  "file": "m08_bootstrap_asymmetry.json",
+  "path": [
+   "Passive",
+   "frac_a_minus_less_than_a_plus"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Passive RPE 2a log10_ratio_plus_over_minus_CI",
+  "value": [
+   -0.746,
+   0.564,
+   1.801
+  ],
+  "file": "m08_bootstrap_asymmetry.json",
+  "path": [
+   "Passive",
+   "log10_ratio_plus_over_minus_CI"
+  ],
+  "note": ""
+ },
+ {
+  "section": "4. Group fits (m05b), LOMO-CV and group recovery (m11), asymmetry bootstrap (m08)",
+  "quantity": "Active minus Passive alpha- CI",
+  "value": [
+   -0.99,
+   -0.1568,
+   0.0
+  ],
+  "file": "m08_bootstrap_asymmetry.json",
+  "path": [
+   "Active_minus_Passive_a_minus_CI"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active day-14 drops: mean, min, max",
+  "value": {
+   "total_mean": 28.333333333333332,
+   "total_min": 17,
+   "total_max": 33,
+   "by_2p5min": [
+    18.5,
+    22.333333333333332,
+    25.166666666666668,
+    26.333333333333332,
+    27.5,
+    28.333333333333332
+   ],
+   "frac_by_2p5min": [
+    0.6551329710769939,
+    0.7883635333410002,
+    0.880752376708259,
+    0.9180377302436126,
+    0.9680622400475342,
+    1.0
+   ],
+   "after_15min_mean": 0.0
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "day14_drops"
+  ],
+  "note": "frac_by_2p5min = share earned by 2.5, 5, ... 15 min"
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active observed day14: mean [lo, hi], p, n down/up",
+  "value": [
+   -0.05555555555555556,
+   -0.26505364311135154,
+   0.1539425320002404,
+   0.5257310134172164,
+   4,
+   2
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_observed",
+   "day14"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active observed day15: mean [lo, hi], p, n down/up",
+  "value": [
+   -0.26666666666666666,
+   -0.46455014863714517,
+   -0.06878318469618813,
+   0.017962884609943976,
+   6,
+   0
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_observed",
+   "day15"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active observed day16: mean [lo, hi], p, n down/up",
+  "value": [
+   -0.35000000000000003,
+   -0.5971068743096268,
+   -0.10289312569037323,
+   0.014888665153659756,
+   5,
+   1
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_observed",
+   "day16"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active observed d14_h1: mean [lo, hi], p, n down/up",
+  "value": [
+   0.022222222222222227,
+   -0.17893228270202596,
+   0.22337672714647042,
+   0.7878093044949185,
+   1,
+   3
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_observed",
+   "d14_h1"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active observed d14_h2: mean [lo, hi], p, n down/up",
+  "value": [
+   -0.13333333333333333,
+   -0.5139698108496304,
+   0.2473031441829638,
+   0.4091533325905762,
+   4,
+   2
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_observed",
+   "d14_h2"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active observed d15_h1: mean [lo, hi], p, n down/up",
+  "value": [
+   -0.15555555555555556,
+   -0.3965621476808784,
+   0.08545103656976724,
+   0.15797945082345657,
+   5,
+   1
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_observed",
+   "d15_h1"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active observed within14_halves: mean [lo, hi], p, n down/up",
+  "value": [
+   -0.15555555555555556,
+   -0.5972983890871525,
+   0.2861872779760414,
+   0.40685814482870664,
+   3,
+   3
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_observed",
+   "within14_halves"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active observed night_halves: mean [lo, hi], p, n down/up",
+  "value": [
+   -0.022222222222222227,
+   -0.5337934431866325,
+   0.48934899874218796,
+   0.9154340509597623,
+   3,
+   3
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_observed",
+   "night_halves"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active observed within14_5min: mean [lo, hi], p, n down/up",
+  "value": [
+   -0.08333333333333333,
+   -0.515602315026639,
+   0.3489356483599723,
+   0.6412145721163045,
+   3,
+   3
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_observed",
+   "within14_5min"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active observed night_5min: mean [lo, hi], p, n down/up",
+  "value": [
+   -0.08333333333333331,
+   -0.5862601493525241,
+   0.41959348268585756,
+   0.6878667525275877,
+   3,
+   3
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_observed",
+   "night_5min"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active observed d15_minus_d14: mean [lo, hi], p, n down/up",
+  "value": [
+   -0.2111111111111111,
+   -0.4330878129281949,
+   0.010865590705972705,
+   0.05831152110383653,
+   5,
+   1
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_observed",
+   "d15_minus_d14"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active group-curve sigmoid, morphine -> water",
+  "value": {
+   "A": -0.38182005058862256,
+   "mid": 36.5,
+   "x0": 36.5,
+   "s": 10.06278737892818,
+   "start": 14.389796254510287,
+   "r2": 0.5959746060884998
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "sig_obs",
+   "groupcurve",
+   "deg"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active group-curve sigmoid, water -> morphine",
+  "value": {
+   "A": 0.3487582235642643,
+   "mid": 4.5,
+   "x0": 4.5,
+   "s": 0.3,
+   "start": 3.840832626799134,
+   "r2": 0.6865366274971867
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "sig_obs",
+   "groupcurve",
+   "enh"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active bootstrap over mice (2000): CIs and share later",
+  "value": {
+   "deg_mid_CI": [
+    13.5,
+    36.5,
+    68.0
+   ],
+   "enh_mid_CI": [
+    3.5,
+    4.5,
+    15.0
+   ],
+   "deg_start_CI": [
+    0.0,
+    21.934385664083702,
+    46.840832626799134
+   ],
+   "enh_start_CI": [
+    2.375005716693712,
+    3.840832626799134,
+    14.340832626799134
+   ],
+   "frac_deg_mid_later": 0.9965
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "groupcurve_boot"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active per-mouse midpoints, morphine -> water",
+  "value": [
+   42.5,
+   33.0,
+   15.0,
+   64.5,
+   73.5,
+   3.0
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "sig_obs",
+   "deg",
+   "mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active per-mouse midpoints, water -> morphine",
+  "value": [
+   1.5,
+   47.0,
+   4.5,
+   4.0,
+   11.5,
+   6.0
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "sig_obs",
+   "enh",
+   "mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active per-mouse midpoint test (paired)",
+  "value": {
+   "mean_a": 38.583333333333336,
+   "mean_b": 12.416666666666666,
+   "mean_diff": 26.166666666666668,
+   "p_t": 0.10842914058136412,
+   "p_wilcoxon": 0.21875,
+   "n": 6,
+   "n_a_greater": 4
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "sig_tests",
+   "deg_vs_enh_mid_all"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active instant switch noise-free group-curve midpoints/starts",
+  "value": {
+   "deg_mid": 1.0,
+   "deg_start": 0.0,
+   "enh_mid": 1.0,
+   "enh_start": 0.0
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_models",
+   "today's outcome",
+   "sig_pred_groupcurve"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active RPE noise-free group-curve midpoints/starts",
+  "value": {
+   "deg_mid": 10.0,
+   "deg_start": 0.0,
+   "enh_mid": 16.0,
+   "enh_start": 0.0
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_models",
+   "RPE",
+   "sig_pred_groupcurve"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active RPE 2a noise-free group-curve midpoints/starts",
+  "value": {
+   "deg_mid": 30.0,
+   "deg_start": 0.0,
+   "enh_mid": 3.0,
+   "enh_start": 0.0
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_models",
+   "RPE2a",
+   "sig_pred_groupcurve"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active meta-RPE noise-free group-curve midpoints/starts",
+  "value": {
+   "deg_mid": 31.5,
+   "deg_start": 0.0,
+   "enh_mid": 4.5,
+   "enh_start": 0.0
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Active",
+   "A_models",
+   "mRPE",
+   "sig_pred_groupcurve"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive day-14 drops: mean, min, max",
+  "value": {
+   "total_mean": 28.142857142857142,
+   "total_min": 18,
+   "total_max": 32,
+   "by_2p5min": [
+    16.142857142857142,
+    18.285714285714285,
+    21.857142857142858,
+    24.857142857142858,
+    26.428571428571427,
+    27.714285714285715
+   ],
+   "frac_by_2p5min": [
+    0.5701012588943623,
+    0.6408627531472358,
+    0.7647304324028461,
+    0.8743466064586753,
+    0.9297995347564313,
+    0.9796626984126985
+   ],
+   "after_15min_mean": 0.42857142857142855
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "day14_drops"
+  ],
+  "note": "frac_by_2p5min = share earned by 2.5, 5, ... 15 min"
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive observed day14: mean [lo, hi], p, n down/up",
+  "value": [
+   0.40476190476190477,
+   0.2771210650382069,
+   0.5324027444856027,
+   0.00024093906737377018,
+   0,
+   7
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_observed",
+   "day14"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive observed day15: mean [lo, hi], p, n down/up",
+  "value": [
+   0.36666666666666664,
+   0.25551404108481424,
+   0.47781929224851905,
+   0.0001936172795572818,
+   0,
+   7
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_observed",
+   "day15"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive observed day16: mean [lo, hi], p, n down/up",
+  "value": [
+   0.42857142857142855,
+   0.1823131714419761,
+   0.674829685700881,
+   0.005330372553627198,
+   0,
+   7
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_observed",
+   "day16"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive observed d14_h1: mean [lo, hi], p, n down/up",
+  "value": [
+   0.31428571428571433,
+   0.0789276350059486,
+   0.5496437935654801,
+   0.01708787869039315,
+   1,
+   6
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_observed",
+   "d14_h1"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive observed d14_h2: mean [lo, hi], p, n down/up",
+  "value": [
+   0.4952380952380952,
+   0.2820783175201679,
+   0.7083978729560225,
+   0.0012775722520687852,
+   0,
+   7
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_observed",
+   "d14_h2"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive observed d15_h1: mean [lo, hi], p, n down/up",
+  "value": [
+   0.35238095238095246,
+   0.24729774609566765,
+   0.45746415866623724,
+   0.00017672371369930804,
+   0,
+   7
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_observed",
+   "d15_h1"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive observed within14_halves: mean [lo, hi], p, n down/up",
+  "value": [
+   0.18095238095238095,
+   -0.1884962579360989,
+   0.5504010198408608,
+   0.2759178774208911,
+   3,
+   4
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_observed",
+   "within14_halves"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive observed night_halves: mean [lo, hi], p, n down/up",
+  "value": [
+   -0.14285714285714285,
+   -0.4394676507846301,
+   0.15375336507034443,
+   0.2832090265494689,
+   3,
+   1
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_observed",
+   "night_halves"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive observed within14_5min: mean [lo, hi], p, n down/up",
+  "value": [
+   0.1142857142857143,
+   -0.3525204130699938,
+   0.5810918416414224,
+   0.5710403128289802,
+   2,
+   4
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_observed",
+   "within14_5min"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive observed night_5min: mean [lo, hi], p, n down/up",
+  "value": [
+   -0.1285714285714286,
+   -0.537719556080506,
+   0.2805766989376489,
+   0.4711134128159247,
+   3,
+   1
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_observed",
+   "night_5min"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive observed d15_minus_d14: mean [lo, hi], p, n down/up",
+  "value": [
+   -0.03809523809523811,
+   -0.22257440239569953,
+   0.14638392620522334,
+   0.631374258341094,
+   5,
+   2
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_observed",
+   "d15_minus_d14"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive group-curve sigmoid, morphine -> water",
+  "value": {
+   "A": 0.4084317473594824,
+   "mid": 1.0,
+   "x0": 1.0,
+   "s": 1.0519069899776614,
+   "start": 0.0,
+   "r2": 0.7397871818832178
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "sig_obs",
+   "groupcurve",
+   "deg"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive group-curve sigmoid, water -> morphine",
+  "value": {
+   "A": -1.0,
+   "mid": 49.0,
+   "x0": 49.0,
+   "s": 35.28372127517847,
+   "start": 0.0,
+   "r2": 0.7650274443503953
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "sig_obs",
+   "groupcurve",
+   "enh"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive bootstrap over mice (2000): CIs and share later",
+  "value": {
+   "deg_mid_CI": [
+    0.0,
+    1.5,
+    25.0
+   ],
+   "enh_mid_CI": [
+    0.5,
+    38.5,
+    60.0
+   ],
+   "deg_start_CI": [
+    0.0,
+    0.0,
+    12.840832626799134
+   ],
+   "enh_start_CI": [
+    0.0,
+    0.0,
+    19.840832626799134
+   ],
+   "frac_deg_mid_later": 0.0545
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "groupcurve_boot"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive per-mouse midpoints, morphine -> water",
+  "value": [
+   11.0,
+   1.0,
+   0.0,
+   1.0,
+   59.5,
+   5.0,
+   13.0
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "sig_obs",
+   "deg",
+   "mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive per-mouse midpoints, water -> morphine",
+  "value": [
+   21.0,
+   3.5,
+   0.0,
+   29.0,
+   2.0,
+   51.5,
+   34.0
+  ],
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "sig_obs",
+   "enh",
+   "mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive per-mouse midpoint test (paired)",
+  "value": {
+   "mean_a": 12.928571428571429,
+   "mean_b": 20.142857142857142,
+   "mean_diff": -7.214285714285714,
+   "p_t": 0.5812457532641437,
+   "p_wilcoxon": 0.4375,
+   "n": 7,
+   "n_a_greater": 1
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "sig_tests",
+   "deg_vs_enh_mid_all"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive instant switch noise-free group-curve midpoints/starts",
+  "value": {
+   "deg_mid": 0.0,
+   "deg_start": 0.0,
+   "enh_mid": 0.0,
+   "enh_start": 0.0
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_models",
+   "today's outcome",
+   "sig_pred_groupcurve"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive RPE noise-free group-curve midpoints/starts",
+  "value": {
+   "deg_mid": 0.5,
+   "deg_start": 0.0,
+   "enh_mid": 1.0,
+   "enh_start": 0.0
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_models",
+   "RPE",
+   "sig_pred_groupcurve"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive RPE 2a noise-free group-curve midpoints/starts",
+  "value": {
+   "deg_mid": 1.5,
+   "deg_start": 0.0,
+   "enh_mid": 1.0,
+   "enh_start": 0.0
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_models",
+   "RPE2a",
+   "sig_pred_groupcurve"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Passive meta-RPE noise-free group-curve midpoints/starts",
+  "value": {
+   "deg_mid": 1.5,
+   "deg_start": 0.0,
+   "enh_mid": 1.0,
+   "enh_start": 0.0
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Passive",
+   "A_models",
+   "mRPE",
+   "sig_pred_groupcurve"
+  ],
+  "note": ""
+ },
+ {
+  "section": "5. Trial by trial: observed statistics, drops, timing (m13; v1 file, observed values are valid)",
+  "quantity": "Active vs Passive Welch p (observed statistics)",
+  "value": {
+   "day14": {
+    "p": 0.0011295208342594265,
+    "mean_a": -0.05555555555555556,
+    "mean_b": 0.40476190476190477
+   },
+   "day15": {
+    "p": 8.870843887567074e-05,
+    "mean_a": -0.26666666666666666,
+    "mean_b": 0.36666666666666664
+   },
+   "day16": {
+    "p": 0.0001629178751947368,
+    "mean_a": -0.35000000000000003,
+    "mean_b": 0.42857142857142855
+   },
+   "d14_h1": {
+    "p": 0.03839385121994568,
+    "mean_a": 0.022222222222222227,
+    "mean_b": 0.31428571428571433
+   },
+   "d14_h2": {
+    "p": 0.00609813779496564,
+    "mean_a": -0.13333333333333333,
+    "mean_b": 0.4952380952380952
+   },
+   "d15_h1": {
+    "p": 0.0016620229110258032,
+    "mean_a": -0.15555555555555556,
+    "mean_b": 0.35238095238095246
+   },
+   "within14_halves": {
+    "p": 0.17062596423537574,
+    "mean_a": -0.15555555555555556,
+    "mean_b": 0.18095238095238095
+   },
+   "night_halves": {
+    "p": 0.6179749389120258,
+    "mean_a": -0.022222222222222227,
+    "mean_b": -0.14285714285714285
+   },
+   "within14_5min": {
+    "p": 0.453514442491324,
+    "mean_a": -0.08333333333333333,
+    "mean_b": 0.1142857142857143
+   },
+   "night_5min": {
+    "p": 0.8638587274914474,
+    "mean_a": -0.08333333333333331,
+    "mean_b": -0.1285714285714286
+   },
+   "d15_minus_d14": {
+    "p": 0.16081649975165263,
+    "mean_a": -0.2111111111111111,
+    "mean_b": -0.03809523809523811
+   },
+   "deg_mid": {
+    "p": 0.09380297359439461,
+    "mean_a": 38.583333333333336,
+    "mean_b": 12.928571428571429
+   },
+   "enh_mid": {
+    "p": 0.46390921485219677,
+    "mean_a": 12.416666666666666,
+    "mean_b": 20.142857142857142
+   },
+   "deg_start": {
+    "p": 0.02829405783990216,
+    "mean_a": 37.92416596013247,
+    "mean_b": 3.9577375905708103
+   }
+  },
+  "file": "m13_summary.json",
+  "path": [
+   "Active_vs_Passive"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active share of drops earned by 2.5 min, by day",
+  "value": {
+   "13": 0.5756406428820221,
+   "14": 0.6551329710769939,
+   "15": 0.76903546745652,
+   "17": 0.47869563886134586
+  },
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "drops_frac_by_2p5min"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active P(lick) in the first 2 min (bins 0-3), by day",
+  "value": {
+   "13": 1.0,
+   "14": 1.0,
+   "16": 0.875,
+   "17": 0.875
+  },
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "p_lick_bins0_3"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active equal 60-trial windows",
+  "value": {
+   "deg60_mid_pm": [
+    42.5,
+    33.0,
+    15.0,
+    36.0,
+    57.0,
+    3.0
+   ],
+   "deg60_A_pm": [
+    -0.8868689021132546,
+    -0.3424469915137123,
+    -0.3839726217739474,
+    -0.12782157785092513,
+    -1.0,
+    -0.390979368973917
+   ],
+   "paired_deg60_vs_enh": {
+    "mean_a": 31.083333333333332,
+    "mean_b": 12.416666666666666,
+    "mean_diff": 18.666666666666668,
+    "p_t": 0.12092226823771009,
+    "p_wilcoxon": 0.21875,
+    "n": 6,
+    "n_a_greater": 4
+   },
+   "group_deg60_mid": 49.0,
+   "group_enh_mid": 4.5
+  },
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "equal_window"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active leave one mouse out (group curve)",
+  "value": [
+   {
+    "left_out": "0910_black",
+    "deg_start": 8.934385664083702,
+    "deg_mid": 34.0,
+    "enh_mid": 4.5
+   },
+   {
+    "left_out": "0911_red",
+    "deg_start": 7.479629135728764,
+    "deg_mid": 44.0,
+    "enh_mid": 4.5
+   },
+   {
+    "left_out": "0911_white",
+    "deg_start": 26.192316556783496,
+    "deg_mid": 38.0,
+    "enh_mid": 4.0
+   },
+   {
+    "left_out": "6099_black",
+    "deg_start": 6.4343856640837025,
+    "deg_mid": 31.5,
+    "enh_mid": 4.5
+   },
+   {
+    "left_out": "6099_orange",
+    "deg_start": 19.114015737027138,
+    "deg_mid": 32.5,
+    "enh_mid": 4.5
+   },
+   {
+    "left_out": "6100_black",
+    "deg_start": 41.840832626799134,
+    "deg_mid": 42.5,
+    "enh_mid": 4.0
+   }
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "leave_one_out"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active instant switch day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   -0.05555555555555556,
+   -0.22407405442949915,
+   0.16851849887394357,
+   0.07258176090507616,
+   0.29032704362030465
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "today's outcome",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active instant switch day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.050474762618690654,
+   0.020989505247376312,
+   0.0004997501249375312
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "today's outcome",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active instant switch first half of day 14: pred, mouse p, A, B",
+  "value": [
+   -0.19759819698857173,
+   0.009549472745193027,
+   0.0399800099950025,
+   0.019490254872563718
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "today's outcome",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active instant switch placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.005555555555555552,
+   0.0,
+   0.901159179291675,
+   0.9710144927536232,
+   0.9375312343828086,
+   0.953023488255872
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "today's outcome",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active instant switch calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   1.9927752049533927,
+   2.8279824599706234,
+   0.3698977214370539,
+   [
+    0.7,
+    3.0,
+    0.7,
+    true
+   ],
+   [
+    0.0,
+    1.9,
+    0.7,
+    false
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "today's outcome",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active instant switch timing g_deg_start: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   14.389796254510287,
+   0.0944527736131934,
+   0.06846576711644178,
+   0.3408326267991342,
+   [
+    0.0,
+    36.853332626799066
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "today's outcome",
+   "timing",
+   "g_deg_start"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active instant switch timing g_deg_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   36.5,
+   0.06946526736631684,
+   0.047476261869065464,
+   4.0,
+   [
+    0.0,
+    75.01249999999993
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "today's outcome",
+   "timing",
+   "g_deg_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active instant switch timing g_enh_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   4.5,
+   0.6861569215392304,
+   0.7106446776611695,
+   4.5,
+   [
+    0.0,
+    60.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "today's outcome",
+   "timing",
+   "g_enh_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active instant switch timing g_deg60_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   49.0,
+   0.07646176911544228,
+   0.06646676661669165,
+   4.5,
+   [
+    0.0,
+    60.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "today's outcome",
+   "timing",
+   "g_deg60_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   -0.05555555555555556,
+   -0.18950185445912884,
+   0.13394629890357335,
+   0.15245164978976541,
+   0.4573549493692962
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.13693153423288357,
+   0.07796101949025487,
+   0.001999000499750125
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE first half of day 14: pred, mouse p, A, B",
+  "value": [
+   -0.13794471502894642,
+   0.0516646556074396,
+   0.12143928035982009,
+   0.08295852073963018
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.005555555555555552,
+   0.00010511040805090996,
+   0.8993616515483192,
+   0.9715142428785607,
+   0.9365317341329336,
+   0.9060469765117442
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   2.115346179666326,
+   3.0018191205645963,
+   0.36991109767922425,
+   [
+    0.7,
+    3.0,
+    0.7,
+    true
+   ],
+   [
+    0.0,
+    2.2,
+    0.7,
+    false
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE timing g_deg_start: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   14.389796254510287,
+   0.5992003998001,
+   0.5157421289355323,
+   4.840832626799134,
+   [
+    0.0,
+    40.353332626799066
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE",
+   "timing",
+   "g_deg_start"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE timing g_deg_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   36.5,
+   0.2988505747126437,
+   0.21889055472263869,
+   12.5,
+   [
+    0.0,
+    88.5
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE",
+   "timing",
+   "g_deg_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE timing g_enh_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   4.5,
+   0.4752623688155922,
+   0.4642678660669665,
+   13.0,
+   [
+    0.0,
+    60.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE",
+   "timing",
+   "g_enh_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE timing g_deg60_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   49.0,
+   0.11944027986006997,
+   0.1184407796101949,
+   10.5,
+   [
+    0.0,
+    60.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE",
+   "timing",
+   "g_deg60_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE 2a day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   -0.05555555555555556,
+   -0.14740608732697372,
+   0.09185053177141815,
+   0.29658130273613914,
+   0.5931626054722783
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE2a",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE 2a day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.3118440779610195,
+   0.22788605697151423,
+   0.05297351324337831
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE2a",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE 2a first half of day 14: pred, mouse p, A, B",
+  "value": [
+   -0.1015093961877754,
+   0.12450907319733341,
+   0.22688655672163918,
+   0.1724137931034483
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE2a",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE 2a placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.005555555555555552,
+   8.382205793664197e-11,
+   0.9011591778719293,
+   0.9725137431284357,
+   0.9735132433783108,
+   0.9490254872563718
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE2a",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE 2a calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   2.046367215343672,
+   2.904035845950874,
+   0.36989772133824067,
+   [
+    1.0,
+    3.0,
+    0.7,
+    true
+   ],
+   [
+    0.0,
+    2.1,
+    0.7,
+    false
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE2a",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE 2a timing g_deg_start: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   14.389796254510287,
+   0.9245377311344328,
+   0.8115942028985508,
+   6.180399024702951,
+   [
+    0.0,
+    52.853332626799066
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE2a",
+   "timing",
+   "g_deg_start"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE 2a timing g_deg_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   36.5,
+   0.8730634682658671,
+   0.8360819590204898,
+   27.0,
+   [
+    1.4875000000000007,
+    90.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE2a",
+   "timing",
+   "g_deg_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE 2a timing g_enh_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   4.5,
+   0.7071464267866067,
+   0.7166416791604198,
+   4.0,
+   [
+    0.0,
+    60.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE2a",
+   "timing",
+   "g_enh_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE 2a timing g_deg60_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   49.0,
+   0.12893553223388307,
+   0.14742628685657172,
+   17.0,
+   [
+    0.5,
+    60.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPE2a",
+   "timing",
+   "g_deg60_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active meta-RPE day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   -0.05555555555555556,
+   -0.10724174104913732,
+   0.05168618549358179,
+   0.5761058993644893,
+   0.5931626054722783
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "mRPE",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active meta-RPE day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.5872063968015993,
+   0.5237381309345327,
+   0.28535732133933034
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "mRPE",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active meta-RPE first half of day 14: pred, mouse p, A, B",
+  "value": [
+   -0.05967007681764316,
+   0.36321101548011697,
+   0.391304347826087,
+   0.37381309345327335
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "mRPE",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active meta-RPE placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.005555555555555552,
+   0.0010449145935185397,
+   0.8831005286845928,
+   0.9485257371314343,
+   0.9460269865067467,
+   0.8990504747626187
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "mRPE",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active meta-RPE calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   2.0667746274102363,
+   2.927700434599054,
+   0.37003287912487015,
+   [
+    1.0,
+    3.0,
+    0.7,
+    true
+   ],
+   [
+    0.1,
+    2.4,
+    0.7,
+    false
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "mRPE",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active meta-RPE timing g_deg_start: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   14.389796254510287,
+   0.9365317341329336,
+   0.9855072463768116,
+   12.832790190533846,
+   [
+    0.0,
+    51.842207872297166
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "mRPE",
+   "timing",
+   "g_deg_start"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active meta-RPE timing g_deg_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   36.5,
+   0.9300349825087456,
+   0.9540229885057471,
+   31.0,
+   [
+    5.0,
+    90.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "mRPE",
+   "timing",
+   "g_deg_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active meta-RPE timing g_enh_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   4.5,
+   0.5827086456771614,
+   0.5717141429285357,
+   6.0,
+   [
+    0.0,
+    60.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "mRPE",
+   "timing",
+   "g_enh_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active meta-RPE timing g_deg60_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   49.0,
+   0.21389305347326337,
+   0.23588205897051473,
+   26.0,
+   [
+    3.0,
+    60.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "mRPE",
+   "timing",
+   "g_deg60_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active PH day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   -0.05555555555555556,
+   -0.1495031251549747,
+   0.09394756959941913,
+   0.2779673743041275,
+   null
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "PH",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active PH day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.3353323338330835,
+   0.23338330834582707,
+   0.0544727636181909
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "PH",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active PH first half of day 14: pred, mouse p, A, B",
+  "value": [
+   -0.10806940404207144,
+   0.11291893389984745,
+   0.22438780609695153,
+   0.14992503748125938
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "PH",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active PH placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.005555555555555552,
+   0.010834829271469539,
+   0.7234676532134395,
+   0.8585707146426786,
+   0.8110944527736131,
+   0.7586206896551724
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "PH",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active PH calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   2.1999334322131916,
+   3.0516879784315467,
+   0.37158398704547213,
+   [
+    1.4,
+    3.0,
+    0.7,
+    true
+   ],
+   [
+    0.1,
+    2.6,
+    0.7,
+    false
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "PH",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active eMack day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   -0.05555555555555556,
+   -0.12938676023267184,
+   0.07383120467711628,
+   0.3936765653140019,
+   null
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "eMack",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active eMack day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.4737631184407796,
+   0.3288355822088955,
+   0.12343828085957022
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "eMack",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active eMack first half of day 14: pred, mouse p, A, B",
+  "value": [
+   -0.08344286185504568,
+   0.19434475706820506,
+   0.31284357821089454,
+   0.2223888055972014
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "eMack",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active eMack placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.005555555555555552,
+   0.006542335317567358,
+   0.7918276587240954,
+   0.9055472263868066,
+   0.8750624687656172,
+   0.809095452273863
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "eMack",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active eMack calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   2.07683050962271,
+   2.920091455158168,
+   0.37065006794088956,
+   [
+    1.3,
+    3.0,
+    0.7,
+    true
+   ],
+   [
+    0.1,
+    2.3,
+    0.7,
+    false
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "eMack",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE t-1 day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   -0.05555555555555556,
+   -0.21117852314917251,
+   0.15562296759361696,
+   0.0995365351651987,
+   null
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPEt-1",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE t-1 day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.08895552223888056,
+   0.04097951024487756,
+   0.0009995002498750624
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPEt-1",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE t-1 first half of day 14: pred, mouse p, A, B",
+  "value": [
+   -0.15975750648288192,
+   0.02681486023767977,
+   0.07546226886556721,
+   0.043478260869565216
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPEt-1",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE t-1 placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.005555555555555552,
+   0.003009433589083168,
+   0.8496025536617914,
+   0.953023488255872,
+   0.9425287356321839,
+   0.8620689655172413
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPEt-1",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active RPE t-1 calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   2.145223651456613,
+   3.0287515846894513,
+   0.37027520539755965,
+   [
+    0.9,
+    3.0,
+    0.7,
+    true
+   ],
+   [
+    0.0,
+    2.4,
+    0.7,
+    false
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "RPEt-1",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active no learning day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   -0.05555555555555556,
+   0.0,
+   -0.05555555555555556,
+   0.5257310134172164,
+   null
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "no learning",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active no learning day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.5577211394302849,
+   0.4827586206896552,
+   0.25487256371814093
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "no learning",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active no learning first half of day 14: pred, mouse p, A, B",
+  "value": [
+   0.0,
+   0.7878093044949185,
+   0.8830584707646177,
+   0.8445777111444278
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "no learning",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active no learning placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.005555555555555552,
+   0.0,
+   0.901159179291675,
+   0.968015992003998,
+   0.9665167416291854,
+   0.9620189905047476
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "no learning",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Active no learning calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   1.7826124579705025,
+   2.5297367969728444,
+   0.3698977214370539,
+   [
+    0.8,
+    3.0,
+    0.7,
+    true
+   ],
+   [
+    0.1,
+    1.7,
+    0.7,
+    false
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Active",
+   "models",
+   "no learning",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive share of drops earned by 2.5 min, by day",
+  "value": {
+   "13": 0.600355013800392,
+   "14": 0.5701012588943623,
+   "15": 0.578618482966309,
+   "17": 0.5096135890253538
+  },
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "drops_frac_by_2p5min"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive P(lick) in the first 2 min (bins 0-3), by day",
+  "value": {
+   "13": 0.6428571428571429,
+   "14": 0.8571428571428571,
+   "16": 0.8928571428571429,
+   "17": 0.6785714285714286
+  },
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "p_lick_bins0_3"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive equal 60-trial windows",
+  "value": {
+   "deg60_mid_pm": [
+    11.5,
+    1.0,
+    0.0,
+    1.0,
+    2.0,
+    5.0,
+    13.5
+   ],
+   "deg60_A_pm": [
+    0.47850890238444455,
+    0.3431410692787006,
+    0.4894503794961411,
+    0.4291025997520129,
+    0.2617001463973274,
+    0.4976709846352195,
+    0.5650654617136115
+   ],
+   "paired_deg60_vs_enh": {
+    "mean_a": 4.857142857142857,
+    "mean_b": 20.142857142857142,
+    "mean_diff": -15.285714285714286,
+    "p_t": 0.05966573209285236,
+    "p_wilcoxon": 0.0625,
+    "n": 7,
+    "n_a_greater": 0
+   },
+   "group_deg60_mid": 1.0,
+   "group_enh_mid": 49.0
+  },
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "equal_window"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive leave one mouse out (group curve)",
+  "value": [
+   {
+    "left_out": "0910_orange",
+    "deg_start": 0.0,
+    "deg_mid": 0.5,
+    "enh_mid": 46.5
+   },
+   {
+    "left_out": "0910_red",
+    "deg_start": 0.0,
+    "deg_mid": 2.0,
+    "enh_mid": 51.5
+   },
+   {
+    "left_out": "0911_black",
+    "deg_start": 0.0,
+    "deg_mid": 2.0,
+    "enh_mid": 49.0
+   },
+   {
+    "left_out": "0911_orange",
+    "deg_start": 0.0,
+    "deg_mid": 1.5,
+    "enh_mid": 45.0
+   },
+   {
+    "left_out": "6099_red",
+    "deg_start": 0.0,
+    "deg_mid": 1.5,
+    "enh_mid": 46.0
+   },
+   {
+    "left_out": "6100_orange",
+    "deg_start": 0.0,
+    "deg_mid": 0.0,
+    "enh_mid": 39.0
+   },
+   {
+    "left_out": "6100_red",
+    "deg_start": 0.15283711588439808,
+    "deg_mid": 1.0,
+    "enh_mid": 44.5
+   }
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "leave_one_out"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive instant switch day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   0.40476190476190477,
+   0.3199999608582455,
+   0.08476194390365922,
+   0.007901141241353068,
+   0.020925896911134518
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "today's outcome",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive instant switch day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.44177911044477763,
+   0.31084457771114443,
+   0.059470264867566215
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "today's outcome",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive instant switch first half of day 14: pred, mouse p, A, B",
+  "value": [
+   0.30277407663268924,
+   0.901516348660515,
+   0.9675162418790605,
+   0.9615192403798101
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "today's outcome",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive instant switch placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.18571428571428572,
+   0.0,
+   0.046196486218850134,
+   0.0814592703648176,
+   0.02048975512243878,
+   0.0004997501249375312
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "today's outcome",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive instant switch calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   3.354864170892675,
+   3.2289136388796407,
+   0.4242640687119285,
+   [
+    1.8,
+    3.0,
+    0.7,
+    true
+   ],
+   [
+    0.7,
+    3.0,
+    0.7,
+    true
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "today's outcome",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive instant switch timing g_deg_start: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   0.0,
+   0.8835582208895553,
+   0.8975512243878061,
+   0.0,
+   [
+    0.0,
+    17.340832626799134
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "today's outcome",
+   "timing",
+   "g_deg_start"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive instant switch timing g_deg_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   1.0,
+   0.7456271864067966,
+   0.7716141929035483,
+   0.0,
+   [
+    0.0,
+    50.024999999999864
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "today's outcome",
+   "timing",
+   "g_deg_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive instant switch timing g_enh_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   49.0,
+   0.03698150924537731,
+   0.03248375812093953,
+   0.5,
+   [
+    0.0,
+    55.5
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "today's outcome",
+   "timing",
+   "g_enh_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive instant switch timing g_deg60_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   1.0,
+   0.7296351824087957,
+   0.7166416791604198,
+   0.5,
+   [
+    0.0,
+    58.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "today's outcome",
+   "timing",
+   "g_deg60_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   0.40476190476190477,
+   0.31192526351539307,
+   0.0928366412465117,
+   0.006244676540594383,
+   0.020925896911134518
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.4222888555722139,
+   0.27386306846576713,
+   0.043478260869565216
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE first half of day 14: pred, mouse p, A, B",
+  "value": [
+   0.2864972684120211,
+   0.7655334152367989,
+   0.8810594702648675,
+   0.8170914542728636
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.18571428571428572,
+   0.0,
+   0.046196486218850134,
+   0.11044477761119441,
+   0.029985007496251874,
+   0.0004997501249375312
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   3.354627993512568,
+   3.2286863282271128,
+   0.4242640687119285,
+   [
+    1.9,
+    3.0,
+    0.7,
+    true
+   ],
+   [
+    0.7,
+    3.0,
+    0.7,
+    true
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE timing g_deg_start: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   0.0,
+   0.7496251874062968,
+   0.7481259370314842,
+   0.0,
+   [
+    0.0,
+    21.840832626799134
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE",
+   "timing",
+   "g_deg_start"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE timing g_deg_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   1.0,
+   0.6656671664167916,
+   0.6851574212893553,
+   1.0,
+   [
+    0.0,
+    60.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE",
+   "timing",
+   "g_deg_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE timing g_enh_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   49.0,
+   0.02798600699650175,
+   0.02498750624687656,
+   1.5,
+   [
+    0.0,
+    49.524999999999864
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE",
+   "timing",
+   "g_enh_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE timing g_deg60_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   1.0,
+   0.6521739130434783,
+   0.6336831584207896,
+   1.0,
+   [
+    0.0,
+    57.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE",
+   "timing",
+   "g_deg60_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE 2a day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   0.40476190476190477,
+   0.3060029033240212,
+   0.09875900143788359,
+   0.005463757862803074,
+   0.020925896911134518
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE2a",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE 2a day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.3743128435782109,
+   0.23288355822088955,
+   0.02798600699650175
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE2a",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE 2a first half of day 14: pred, mouse p, A, B",
+  "value": [
+   0.2743860022194274,
+   0.6654180953085892,
+   0.7421289355322339,
+   0.719640179910045
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE2a",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE 2a placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.18571428571428572,
+   0.0,
+   0.046196486218850134,
+   0.10194902548725637,
+   0.031984007996002,
+   0.0004997501249375312
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE2a",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE 2a calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   3.3597056947570207,
+   3.2335733990494204,
+   0.4242640687119285,
+   [
+    1.8,
+    3.0,
+    0.7,
+    true
+   ],
+   [
+    0.8,
+    3.0,
+    0.7,
+    true
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE2a",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE 2a timing g_deg_start: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   0.0,
+   0.7181409295352323,
+   0.7096451774112944,
+   0.0,
+   [
+    0.0,
+    20.344155321986563
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE2a",
+   "timing",
+   "g_deg_start"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE 2a timing g_deg_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   1.0,
+   0.5912043978010995,
+   0.5872063968015993,
+   1.5,
+   [
+    0.0,
+    49.01249999999993
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE2a",
+   "timing",
+   "g_deg_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE 2a timing g_enh_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   49.0,
+   0.029985007496251874,
+   0.026986506746626688,
+   1.5,
+   [
+    0.0,
+    51.51249999999993
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE2a",
+   "timing",
+   "g_enh_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE 2a timing g_deg60_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   1.0,
+   0.5737131434282858,
+   0.545727136431784,
+   2.0,
+   [
+    0.0,
+    57.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPE2a",
+   "timing",
+   "g_deg60_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive meta-RPE day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   0.40476190476190477,
+   0.30407504805219077,
+   0.10068685670971401,
+   0.0052314742277836295,
+   0.020925896911134518
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "mRPE",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive meta-RPE day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.37831084457771114,
+   0.2478760619690155,
+   0.0239880059970015
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "mRPE",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive meta-RPE first half of day 14: pred, mouse p, A, B",
+  "value": [
+   0.26873797846599295,
+   0.6189935485525174,
+   0.7461269365317341,
+   0.6836581709145427
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "mRPE",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive meta-RPE placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.18571428571428572,
+   -1.2690431239021072e-07,
+   0.046196608390495775,
+   0.09645177411294353,
+   0.02498750624687656,
+   0.0004997501249375312
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "mRPE",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive meta-RPE calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   3.36271418336473,
+   3.236469113532768,
+   0.4242640649925783,
+   [
+    0.0,
+    2.7,
+    0.9,
+    false
+   ],
+   [
+    0.8,
+    3.0,
+    0.7,
+    true
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "mRPE",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive meta-RPE timing g_deg_start: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   0.0,
+   0.7286356821589205,
+   0.7191404297851074,
+   0.0,
+   [
+    0.0,
+    23.134036141295272
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "mRPE",
+   "timing",
+   "g_deg_start"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive meta-RPE timing g_deg_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   1.0,
+   0.543728135932034,
+   0.5632183908045977,
+   2.5,
+   [
+    0.0,
+    67.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "mRPE",
+   "timing",
+   "g_deg_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive meta-RPE timing g_enh_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   49.0,
+   0.034482758620689655,
+   0.02498750624687656,
+   2.0,
+   [
+    0.0,
+    54.5
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "mRPE",
+   "timing",
+   "g_enh_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive meta-RPE timing g_deg60_mid: obs, p A, p B, sim median A, 95% range A",
+  "value": [
+   1.0,
+   0.5367316341829086,
+   0.5232383808095952,
+   2.5,
+   [
+    0.0,
+    60.0
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "mRPE",
+   "timing",
+   "g_deg60_mid"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive PH day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   0.40476190476190477,
+   0.20383755019044458,
+   0.2009243545714602,
+   0.0036690191171358743,
+   null
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "PH",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive PH day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.06746626686656672,
+   0.019490254872563718,
+   0.0004997501249375312
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "PH",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive PH first half of day 14: pred, mouse p, A, B",
+  "value": [
+   0.19464479271435756,
+   0.22579812038472863,
+   0.35582208895552225,
+   0.263368315842079
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "PH",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive PH placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.18571428571428572,
+   -0.006308168245153504,
+   0.05317249502724419,
+   0.08845577211394302,
+   0.026986506746626688,
+   0.0004997501249375312
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "PH",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive PH calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   3.3181764497897905,
+   3.194030357954995,
+   0.4243290809173439,
+   [
+    1.7,
+    3.0,
+    0.7,
+    true
+   ],
+   [
+    0.7,
+    3.0,
+    0.7,
+    true
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "PH",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive eMack day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   0.40476190476190477,
+   0.3081141335329702,
+   0.0966477712289346,
+   0.007051759271863302,
+   null
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "eMack",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive eMack day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.42328835582208896,
+   0.2543728135932034,
+   0.031984007996002
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "eMack",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive eMack first half of day 14: pred, mouse p, A, B",
+  "value": [
+   0.27202630973183856,
+   0.6407924856467888,
+   0.7566216891554223,
+   0.7171414292853573
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "eMack",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive eMack placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.18571428571428572,
+   -0.003373867015686573,
+   0.04962375995150627,
+   0.09395302348825588,
+   0.02048975512243878,
+   0.0004997501249375312
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "eMack",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive eMack calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   3.3903190249115207,
+   3.264020763444954,
+   0.4243707798567336,
+   [
+    1.8,
+    3.0,
+    0.7,
+    true
+   ],
+   [
+    0.6,
+    3.0,
+    0.7,
+    true
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "eMack",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE t-1 day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   0.40476190476190477,
+   0.31109701800799694,
+   0.09366488675390784,
+   0.007198027926422919,
+   null
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPEt-1",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE t-1 day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.4012993503248376,
+   0.2893553223388306,
+   0.03648175912043978
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPEt-1",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE t-1 first half of day 14: pred, mouse p, A, B",
+  "value": [
+   0.2841833421521365,
+   0.7425423440172034,
+   0.8420789605197402,
+   0.7816091954022989
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPEt-1",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE t-1 placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.18571428571428572,
+   -0.0002924637070225527,
+   0.046486701131744836,
+   0.09745127436281859,
+   0.03248375812093953,
+   0.0004997501249375312
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPEt-1",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive RPE t-1 calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   3.389338104274644,
+   3.262209740074526,
+   0.42427208977132036,
+   [
+    0.0,
+    2.7,
+    0.9,
+    false
+   ],
+   [
+    0.8,
+    3.0,
+    0.7,
+    true
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "RPEt-1",
+   "calibration"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive no learning day 14: obs, pred, mice-model, mouse p, Holm p",
+  "value": [
+   0.40476190476190477,
+   0.0,
+   0.40476190476190477,
+   0.00024093906737377018,
+   null
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "no learning",
+   "A",
+   "day14",
+   "mouse_t"
+  ],
+  "note": "Holm over the 4 main models only"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive no learning day 14: noise-matched p A, B; naive p (WITHDRAWN)",
+  "value": [
+   0.0004997501249375312,
+   0.0004997501249375312,
+   0.0004997501249375312
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "no learning",
+   "A",
+   "day14"
+  ],
+  "note": "naive = independent bins; never cite"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive no learning first half of day 14: pred, mouse p, A, B",
+  "value": [
+   0.0,
+   0.01708787869039315,
+   0.01649175412293853,
+   0.004997501249375313
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "no learning",
+   "A",
+   "d14_h1"
+  ],
+  "note": "uncorrected; descriptive"
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive no learning placebo (day 13 - day 12): obs, pred, mouse p, A, B, naive",
+  "value": [
+   -0.18571428571428572,
+   0.0,
+   0.046196486218850134,
+   0.09345327336331834,
+   0.022988505747126436,
+   0.0004997501249375312
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "no learning",
+   "placebo",
+   "whole"
+  ],
+  "note": ""
+ },
+ {
+  "section": "6. Trial by trial v2: model checks, placebo, calibration, timing (m15; CURRENT)",
+  "quantity": "Passive no learning calibration: T1/T2/T3 observed; A (sig_u, sig_a, phi, edge); B (...)",
+  "value": [
+   3.0184437665628288,
+   2.9051233521184914,
+   0.4242640687119285,
+   [
+    1.6,
+    3.0,
+    0.7,
+    true
+   ],
+   [
+    0.3,
+    3.0,
+    0.7,
+    true
+   ]
+  ],
+  "file": "m15_summary.json",
+  "path": [
+   "Passive",
+   "models",
+   "no learning",
+   "calibration"
+  ],
+  "note": ""
+ }
+]

@@ -1,0 +1,55 @@
+{
+ "confusion": {
+  "Active": {
+   "RPE": {
+    "RPE": 1.0,
+    "RPE2a": 0.0,
+    "mRPE": 0.0,
+    "today's outcome": 0.0
+   },
+   "RPE2a": {
+    "RPE": 0.4,
+    "RPE2a": 0.56,
+    "mRPE": 0.0,
+    "today's outcome": 0.04
+   },
+   "mRPE": {
+    "RPE": 0.3,
+    "RPE2a": 0.54,
+    "mRPE": 0.16,
+    "today's outcome": 0.0
+   },
+   "today's outcome": {
+    "RPE": 0.0,
+    "RPE2a": 0.0,
+    "mRPE": 0.0,
+    "today's outcome": 1.0
+   }
+  },
+  "Passive": {
+   "RPE": {
+    "RPE": 0.38,
+    "today's outcome": 0.62
+   },
+   "RPE2a": {
+    "RPE": 0.42,
+    "today's outcome": 0.58
+   },
+   "mRPE": {
+    "RPE": 0.48,
+    "today's outcome": 0.52
+   },
+   "today's outcome": {
+    "RPE": 0.0,
+    "today's outcome": 1.0
+   }
+  }
+ },
+ "n_sets": 50,
+ "refit_models": [
+  "RPE2a",
+  "RPE",
+  "mRPE",
+  "today's outcome"
+ ]
+}

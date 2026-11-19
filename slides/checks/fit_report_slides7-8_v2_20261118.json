@@ -1,0 +1,836 @@
+{
+ "checks": [
+  [
+   "mouse-level p for today's outcome equals m15 mouse_t",
+   true
+  ],
+  [
+   "mouse-level p for RPE equals m15 mouse_t",
+   true
+  ],
+  [
+   "mouse-level p for RPE2a equals m15 mouse_t",
+   true
+  ],
+  [
+   "mouse-level p for mRPE equals m15 mouse_t",
+   true
+  ],
+  [
+   "fig7c: all mice and CIs inside the axis",
+   true
+  ],
+  [
+   "fig8a deg: block means inside the axis",
+   true
+  ],
+  [
+   "fig8a enh: block means inside the axis",
+   true
+  ],
+  [
+   "w7: every model predicted a larger fall than the mice (mice - model > 0)",
+   true
+  ],
+  [
+   "w7: no model rejected at the mouse level (all p >= 0.05)",
+   true
+  ],
+  [
+   "w7: instant switch has the smallest mouse-level and simulation p",
+   true
+  ],
+  [
+   "w7: every other main model has simulation p >= 0.05",
+   true
+  ],
+  [
+   "w7: naive check rejects the Passive placebo (motivates the change)",
+   true
+  ],
+  [
+   "[EN] text fits: S7 KEY (0.71 in needed, box 0.77 in, must end above 2.58 in, ends 2.44)",
+   true
+  ],
+  [
+   "[EN] KEY: arrow tip lies left of the box",
+   true
+  ],
+  [
+   "[EN] text fits: S7 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S7 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S7 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "w8: group-curve midpoint later in > 99% of bootstraps",
+   true
+  ],
+  [
+   "[EN] text fits: S8 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S8 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S8 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "w7: every model predicted a larger fall than the mice (mice - model > 0)",
+   true
+  ],
+  [
+   "w7: no model rejected at the mouse level (all p >= 0.05)",
+   true
+  ],
+  [
+   "w7: instant switch has the smallest mouse-level and simulation p",
+   true
+  ],
+  [
+   "w7: every other main model has simulation p >= 0.05",
+   true
+  ],
+  [
+   "w7: naive check rejects the Passive placebo (motivates the change)",
+   true
+  ],
+  [
+   "[EN] text fits: S7 KEY (0.71 in needed, box 0.77 in, must end above 2.58 in, ends 2.44)",
+   true
+  ],
+  [
+   "[EN] KEY: arrow tip lies left of the box",
+   true
+  ],
+  [
+   "[EN] text fits: S7 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S7 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S7 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "w8: group-curve midpoint later in > 99% of bootstraps",
+   true
+  ],
+  [
+   "[EN] text fits: S8 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S8 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S8 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "w7: every model predicted a larger fall than the mice (mice - model > 0)",
+   true
+  ],
+  [
+   "w7: no model rejected at the mouse level (all p >= 0.05)",
+   true
+  ],
+  [
+   "w7: instant switch has the smallest mouse-level and simulation p",
+   true
+  ],
+  [
+   "w7: every other main model has simulation p >= 0.05",
+   true
+  ],
+  [
+   "w7: naive check rejects the Passive placebo (motivates the change)",
+   true
+  ],
+  [
+   "[EN] text fits: S7 KEY (0.71 in needed, box 0.77 in, must end above 2.58 in, ends 2.44)",
+   true
+  ],
+  [
+   "[EN] KEY: arrow tip lies left of the box",
+   true
+  ],
+  [
+   "[EN] text fits: S7 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S7 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S7 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "w8: group-curve midpoint later in > 99% of bootstraps",
+   true
+  ],
+  [
+   "[EN] text fits: S8 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S8 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S8 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[EN] v4 deck = 6 v2 slides + 2 new",
+   true
+  ],
+  [
+   "[EN] v4 deck: every v2 part except the 3 index parts is byte-identical",
+   true
+  ],
+  [
+   "w7: every model predicted a larger fall than the mice (mice - model > 0)",
+   true
+  ],
+  [
+   "w7: no model rejected at the mouse level (all p >= 0.05)",
+   true
+  ],
+  [
+   "w7: instant switch has the smallest mouse-level and simulation p",
+   true
+  ],
+  [
+   "w7: every other main model has simulation p >= 0.05",
+   true
+  ],
+  [
+   "w7: naive check rejects the Passive placebo (motivates the change)",
+   true
+  ],
+  [
+   "[KR] text fits: S7 KEY (0.77 in needed, box 0.83 in, must end above 2.58 in, ends 2.50)",
+   true
+  ],
+  [
+   "[KR] KEY: arrow tip lies left of the box",
+   true
+  ],
+  [
+   "[KR] text fits: S7 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S7 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S7 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "w8: group-curve midpoint later in > 99% of bootstraps",
+   true
+  ],
+  [
+   "[KR] text fits: S8 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S8 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S8 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "w7: every model predicted a larger fall than the mice (mice - model > 0)",
+   true
+  ],
+  [
+   "w7: no model rejected at the mouse level (all p >= 0.05)",
+   true
+  ],
+  [
+   "w7: instant switch has the smallest mouse-level and simulation p",
+   true
+  ],
+  [
+   "w7: every other main model has simulation p >= 0.05",
+   true
+  ],
+  [
+   "w7: naive check rejects the Passive placebo (motivates the change)",
+   true
+  ],
+  [
+   "[KR] text fits: S7 KEY (0.77 in needed, box 0.83 in, must end above 2.58 in, ends 2.50)",
+   true
+  ],
+  [
+   "[KR] KEY: arrow tip lies left of the box",
+   true
+  ],
+  [
+   "[KR] text fits: S7 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S7 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S7 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "w8: group-curve midpoint later in > 99% of bootstraps",
+   true
+  ],
+  [
+   "[KR] text fits: S8 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S8 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S8 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "w7: every model predicted a larger fall than the mice (mice - model > 0)",
+   true
+  ],
+  [
+   "w7: no model rejected at the mouse level (all p >= 0.05)",
+   true
+  ],
+  [
+   "w7: instant switch has the smallest mouse-level and simulation p",
+   true
+  ],
+  [
+   "w7: every other main model has simulation p >= 0.05",
+   true
+  ],
+  [
+   "w7: naive check rejects the Passive placebo (motivates the change)",
+   true
+  ],
+  [
+   "[KR] text fits: S7 KEY (0.77 in needed, box 0.83 in, must end above 2.58 in, ends 2.50)",
+   true
+  ],
+  [
+   "[KR] KEY: arrow tip lies left of the box",
+   true
+  ],
+  [
+   "[KR] text fits: S7 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S7 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S7 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "w8: group-curve midpoint later in > 99% of bootstraps",
+   true
+  ],
+  [
+   "[KR] text fits: S8 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S8 Bottom line (0.66 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S8 Footer (n and test) (0.49 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[KR] v4 deck = 6 v2 slides + 2 new",
+   true
+  ],
+  [
+   "[KR] v4 deck: every v2 part except the 3 index parts is byte-identical",
+   true
+  ],
+  [
+   "v2 printed w7_f75 = 88 matches 88.0752",
+   true
+  ],
+  [
+   "v2 printed w7_h1 = +0.02 matches 0.0222222",
+   true
+  ],
+  [
+   "v2 printed w7_d14 = −0.06 matches -0.0555556",
+   true
+  ],
+  [
+   "v2 printed w7_dmin = 0.05 matches 0.0516862",
+   true
+  ],
+  [
+   "v2 printed w7_dmax = 0.17 matches 0.168518",
+   true
+  ],
+  [
+   "v2 printed w7_pmin = 0.073 matches 0.0725818",
+   true
+  ],
+  [
+   "v2 printed w7_pmax = 0.58 matches 0.576106",
+   true
+  ],
+  [
+   "v2 printed w7_w = −0.16 matches -0.155556",
+   true
+  ],
+  [
+   "v2 printed w7_wl = −0.60 matches -0.597298",
+   true
+  ],
+  [
+   "v2 printed w7_wh = +0.29 matches 0.286187",
+   true
+  ],
+  [
+   "v2 printed w7_n = −0.02 matches -0.0222222",
+   true
+  ],
+  [
+   "v2 printed w7_nl = −0.53 matches -0.533793",
+   true
+  ],
+  [
+   "v2 printed w7_nh = +0.49 matches 0.489349",
+   true
+  ],
+  [
+   "v2 printed w7_simlo_today's outcome = 0.021 matches 0.0209895",
+   true
+  ],
+  [
+   "v2 printed w7_simhi_today's outcome = 0.050 matches 0.0504748",
+   true
+  ],
+  [
+   "v2 printed w7_simlo_RPE = 0.078 matches 0.077961",
+   true
+  ],
+  [
+   "v2 printed w7_simhi_RPE = 0.14 matches 0.136932",
+   true
+  ],
+  [
+   "v2 printed w7_simlo_RPE2a = 0.23 matches 0.227886",
+   true
+  ],
+  [
+   "v2 printed w7_simhi_RPE2a = 0.31 matches 0.311844",
+   true
+  ],
+  [
+   "v2 printed w7_simlo_mRPE = 0.52 matches 0.523738",
+   true
+  ],
+  [
+   "v2 printed w7_simhi_mRPE = 0.59 matches 0.587206",
+   true
+  ],
+  [
+   "v2 printed w7_pim = 0.073 matches 0.0725818",
+   true
+  ],
+  [
+   "v2 printed w7_pilo = 0.021 matches 0.0209895",
+   true
+  ],
+  [
+   "v2 printed w7_pihi = 0.050 matches 0.0504748",
+   true
+  ],
+  [
+   "v2 printed w7_pv14 = +0.40 matches 0.404762",
+   true
+  ],
+  [
+   "v2 printed w8_md = 36.5 matches 36.5",
+   true
+  ],
+  [
+   "v2 printed w8_me = 4.5 matches 4.5",
+   true
+  ],
+  [
+   "v2 printed w8_m60 = 49.0 matches 49",
+   true
+  ],
+  [
+   "v2 printed w8_pmA = 0.11 matches 0.108429",
+   true
+  ],
+  [
+   "v2 printed w8_p60 = 0.12 matches 0.120922",
+   true
+  ],
+  [
+   "v2 printed w8_st = 14.4 matches 14.3898",
+   true
+  ],
+  [
+   "v2 printed w8_slo = 0 matches 0",
+   true
+  ],
+  [
+   "v2 printed w8_shi = 47 matches 46.8408",
+   true
+  ],
+  [
+   "v2 printed w8_pminst = 0.068 matches 0.0684658",
+   true
+  ],
+  [
+   "v2 printed w8_llo = 6 matches 6.43439",
+   true
+  ],
+  [
+   "v2 printed w8_lhi = 42 matches 41.8408",
+   true
+  ],
+  [
+   "v2 printed w8_e2a = 3.0 matches 3",
+   true
+  ],
+  [
+   "v2 printed w8_emr = 4.5 matches 4.5",
+   true
+  ],
+  [
+   "v2 printed w8_pmP = 0.58 matches 0.581246",
+   true
+  ]
+ ],
+ "fit": [
+  {
+   "lang": "EN",
+   "name": "S7 KEY",
+   "need_in": 0.71,
+   "box_in": 0.77,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S7 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S7 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S7 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S8 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S8 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S8 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S7 KEY",
+   "need_in": 0.71,
+   "box_in": 0.77,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S7 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S7 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S7 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S8 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S8 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S8 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S7 KEY",
+   "need_in": 0.71,
+   "box_in": 0.77,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S7 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S7 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S7 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S8 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S8 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S8 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S7 KEY",
+   "need_in": 0.771,
+   "box_in": 0.831,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S7 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S7 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S7 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S8 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S8 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S8 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S7 KEY",
+   "need_in": 0.771,
+   "box_in": 0.831,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S7 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S7 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S7 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S8 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S8 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S8 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S7 KEY",
+   "need_in": 0.771,
+   "box_in": 0.831,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S7 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S7 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S7 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S8 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S8 Bottom line",
+   "need_in": 0.664,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S8 Footer (n and test)",
+   "need_in": 0.489,
+   "box_in": 0.665,
+   "ok": true
+  }
+ ]
+}

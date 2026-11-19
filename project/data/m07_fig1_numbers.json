@@ -1,0 +1,23 @@
+{
+ "n_mice_normalized": 40,
+ "licking (running mean, 5 trials)": {
+  "trials_0_2": 1.034,
+  "trials_3_5": 0.926,
+  "trials_6_9": 0.703,
+  "trials_10_19": 0.54
+ },
+ "RPE model value": {
+  "trials_0_2": 0.864,
+  "trials_3_5": 0.717,
+  "trials_6_9": 0.513,
+  "trials_10_19": 0.344
+ },
+ "meta-RPE model value": {
+  "trials_0_2": 0.958,
+  "trials_3_5": 0.721,
+  "trials_6_9": 0.515,
+  "trials_10_19": 0.29
+ },
+ "gain_M_peak_trial_from_reversal": 11,
+ "rpe_most_negative_trial": 1
+}

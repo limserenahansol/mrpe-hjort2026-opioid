@@ -1,0 +1,52 @@
+{
+ "Active": {
+  "full_fit": {
+   "a_minus": 0.01,
+   "a_plus": 0.1192
+  },
+  "a_minus_CI": [
+   0.01,
+   0.01,
+   0.0321
+  ],
+  "a_plus_CI": [
+   0.0532,
+   0.1225,
+   1.0
+  ],
+  "frac_a_minus_less_than_a_plus": 0.995,
+  "log10_ratio_plus_over_minus_CI": [
+   0.293,
+   1.088,
+   2.0
+  ]
+ },
+ "Passive": {
+  "full_fit": {
+   "a_minus": 0.1704,
+   "a_plus": 0.6248
+  },
+  "a_minus_CI": [
+   0.01,
+   0.1675,
+   1.0
+  ],
+  "a_plus_CI": [
+   0.1219,
+   0.621,
+   1.0
+  ],
+  "frac_a_minus_less_than_a_plus": 0.781,
+  "log10_ratio_plus_over_minus_CI": [
+   -0.746,
+   0.564,
+   1.801
+  ]
+ },
+ "Active_minus_Passive_a_minus_CI": [
+  -0.99,
+  -0.1568,
+  0.0
+ ],
+ "frac_Active_a_minus_lower": 0.885
+}

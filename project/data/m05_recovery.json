@@ -1,0 +1,43 @@
+{
+ "confusion_BIC": {
+  "Active": {
+   "RPE": {
+    "RPE": 0.425,
+    "mRPE": 0.0,
+    "today's outcome": 0.575
+   },
+   "mRPE": {
+    "RPE": 0.475,
+    "mRPE": 0.017,
+    "today's outcome": 0.508
+   },
+   "today's outcome": {
+    "RPE": 0.008,
+    "mRPE": 0.0,
+    "today's outcome": 0.992
+   }
+  },
+  "Passive": {
+   "RPE": {
+    "RPE": 0.236,
+    "mRPE": 0.0,
+    "today's outcome": 0.764
+   },
+   "mRPE": {
+    "RPE": 0.293,
+    "mRPE": 0.007,
+    "today's outcome": 0.7
+   },
+   "today's outcome": {
+    "RPE": 0.021,
+    "mRPE": 0.0,
+    "today's outcome": 0.979
+   }
+  }
+ },
+ "n_sets_per_mouse_and_model": 20,
+ "mRPE_generated_d_less_than_e_true": 0.6923076923076923,
+ "mRPE_generated_d_less_than_e_recovered": 0.6423076923076924,
+ "corr_d": 0.18357890334574148,
+ "corr_e": 0.41425059158410976
+}
