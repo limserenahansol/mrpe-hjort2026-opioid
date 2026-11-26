@@ -4,6 +4,8 @@
 The trial-by-trial results are version 2. Version 1 is kept in the code but its claims are withdrawn.
 **Added on 2026-11-26:** a 2-slide summary deck (English, Korean) with a sample-size calculation, in
 `slides/summary_20261126/` (docs/09, last section; item 13 below). Earlier results and decks are unchanged.
+**Also added on 2026-11-26:** the analysis plan for the next cohort (docs/12), fixed before its data arrive, with its
+code `project/m18_planned_tests.py`.
 
 This package explains, from first principles, a re-analysis of our oral-morphine licking experiment with the learning
 models of a 2026 Nature paper. It covers what was done, every result with its number, and what must **not** be
@@ -27,10 +29,11 @@ claimed. Everything here is a copy. The original project lives on the lab PC at
 | 5 | [docs/05_trial_by_trial.md](docs/05_trial_by_trial.md) | The paper-style trial-by-trial analyses (Fig. 1d,e,m analogues), the noise-matched check and the placebo |
 | 6 | [docs/06_conclusions_and_limits.md](docs/06_conclusions_and_limits.md) | What holds, what does not, what cannot be tested, alternative explanations, next designs |
 | 7 | [docs/07_rules_for_agents.md](docs/07_rules_for_agents.md) | Binding wording rules and known traps |
-| 8 | [docs/08_code_and_reproduce.md](docs/08_code_and_reproduce.md) | Script-by-script map (m01 to m17), inputs and outputs, how to rerun |
+| 8 | [docs/08_code_and_reproduce.md](docs/08_code_and_reproduce.md) | Script-by-script map (m01 to m18), inputs and outputs, how to rerun |
 | 9 | [docs/09_slides.md](docs/09_slides.md) | The current 8-slide deck, slide by slide; the 2-slide summary of 2026-11-26 at the end |
 | 10 | [docs/10_glossary.md](docs/10_glossary.md) | Every term and symbol |
 | 11 | [docs/11_numbers_index.md](docs/11_numbers_index.md) | Every key number with its source file and JSON key (auto-generated) |
+| 12 | [docs/12_analysis_plan_next_cohort.md](docs/12_analysis_plan_next_cohort.md) | The pre-specified tests for the next cohort (fixed on 2026-11-26, before its data) |
 
 ---
 
@@ -123,8 +126,8 @@ Unless noted, numbers are for Active mice (n = 6) and p values are two-sided.
 
 ```
 README.md               this file
-docs/                   the guide (01-11)
-project/                byte-identical copy of the analysis scripts m01-m17 + the project log (README.md)
+docs/                   the guide (01-11) and the analysis plan for the next cohort (12)
+project/                byte-identical copy of the analysis scripts m01-m18 + the project log (README.md)
   project/data/         derived tables and JSON results (no raw data, no pickles)
   project/figs/         figures 1-4 of the first analysis round
 slides/                 CURRENT 8-slide decks (EN, KR), slide previews (PNG), figure PNGs, slide check reports

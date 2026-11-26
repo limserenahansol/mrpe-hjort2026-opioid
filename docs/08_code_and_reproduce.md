@@ -10,7 +10,7 @@ Each script reads from and writes to `data/` next to itself (`D = HERE / "data"`
 |---|---|
 | Machine | Windows 11 |
 | Python | 3.13.3 |
-| Libraries | numpy 2.2.5, scipy 1.17.1, pandas 2.3.3, numba 0.66.0, matplotlib 3.10.8, python-pptx 1.0.2, statsmodels 0.14.6 (m17 and the docs checker only) |
+| Libraries | numpy 2.2.5, scipy 1.17.1, pandas 2.3.3, numba 0.66.0, matplotlib 3.10.8, python-pptx 1.0.2, statsmodels 0.14.6 (m17, m18 and the docs checker only) |
 | Previews (slides only) | LibreOffice headless (`C:\Program Files\LibreOffice\program\soffice.exe`), run with its own profile |
 | Fonts (slides only) | Arial; Malgun Gothic for Korean |
 
@@ -37,6 +37,7 @@ The fitting scripts use process pools with up to 30 workers.
 | `m15_trial_checks_v2.py` | Noise-matched check (calibrations A and B), placebo, mouse-level t, equal windows, leave one out | m13 functions + m04/m05 | `m15_summary.json`, `m15_log.txt` | 20261119 |
 | `m16_make_trial_slides_v2.py` | Slides 7-8 v2 and v4 decks (CURRENT); 134 checks | m13, m15 | `slides_20261118_trial_by_trial/*_v2_*`, `*_v4_*` | - |
 | `m17_make_summary_2slides.py` | (26 Nov) 2-slide summary deck (EN, KR) and the sample-size calculation (statsmodels: two-sample and paired t; Welch-t simulation, 20,000 draws per n); 100 number checks + 20 text-fit checks | m03, m05, m08, m11, m13, m15 outputs; m10 helpers | `slides_20261126_summary/` (copied to `slides/summary_20261126/`) | simulation `default_rng(1)` |
+| `m18_planned_tests.py` | (26 Nov) the pre-specified tests of docs/12 (P1, S1-S4, S2 sensitivity, Holm, pooled estimates); on the Dec-2025 cohort it reproduces the m11 changes, CIs, p values and the asymmetry test exactly (asserted); `--selftest` checks the pooled code | `licks_all.csv`, `sessions.csv`, `m11_modelfree.json` | `m18_planned_tests_dec2025.json`; for a new cohort, `m18_planned_tests.json` in its data folder | - |
 
 ### Key functions to know
 
@@ -106,7 +107,8 @@ logistic-regression readout (Newton steps with a 1e-6 ridge).
 3. **Pickles are not shipped.** Run `m04` first; it rebuilds `m04_events.pkl` and `m04_traces.pkl` deterministically
    from `licks_all.csv`.
 4. Then run m05 → m06 → m08 → m11 (and `m11 --asym`) → m13 → m15. m03 needs only the authors' data; m07 needs
-   the authors' data and the m03 outputs.
+   the authors' data and the m03 outputs. `m18` needs only `licks_all.csv`, `sessions.csv` and `m11_modelfree.json`,
+   has no hard-coded paths, and runs directly from `project/` (`python m18_planned_tests.py`).
 5. **Work on a copy.** Every script writes into `project/data/` and overwrites the shipped results.
 6. **Expected result:** the JSON files match the shipped ones, up to floating-point differences between machines.
    The seeds are fixed (see the table).

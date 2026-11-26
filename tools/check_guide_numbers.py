@@ -364,6 +364,48 @@ SUMREP = json.load(open(ROOT / "slides" / "summary_20261126" / "fit_report.json"
 assert all(ok for _, ok in SUMREP["checks"]) and all(f["ok"] for f in SUMREP["fit"])
 chk("09_slides.md", f"Its {len(SUMREP['checks'])} number checks and {len(SUMREP['fit'])} text-fit checks pass")
 
+# ============================================================ docs/12 analysis plan for the next cohort (added 2026-11-26)
+P12 = "12_analysis_plan_next_cohort.md"
+m18 = J("m18_planned_tests_dec2025.json")
+T18, SS18, O18 = m18["tests"]["dec2025"], m18["sample_size"], m18["sample_size"]["observed_dec2025"]
+q1, q2, q2s, q3, q4 = (T18["P1_lag"], T18["S2_W1_active_vs_passive"], T18["S2_sensitivity_ref_M1_M0"],
+                       T18["S3_R1_active"], T18["S4_asymmetry"])
+# independent recomputation from m13's bins (m18 works from licks_all.csv) and from m11
+pm18 = BINS.groupby(["group", "mouse", "day"]).lick.mean().unstack("day").loc["Active"]
+lag18 = (pm18[14] - (pm18[15] + pm18[16]) / 2).dropna()
+assert len(lag18) == q1["n"] and abs(lag18.mean() - q1["mean"]) < 1e-9 \
+    and abs(sst.ttest_1samp(lag18, 0).pvalue - q1["p"]) < 1e-9 and abs(lag18.mean() / lag18.std(ddof=1) - q1["dz"]) < 1e-9
+w14 = pm18[14] - pm18[13]
+assert abs(np.corrcoef(w14[lag18.index], (w14 - lag18)[lag18.index])[0, 1] - O18["P1"]["r"]) < 1e-9
+assert abs(q2["p"] - MF["day14_vs_13"]["Active_vs_Passive_whole"]["welch_p"]) < 1e-9
+assert abs(SS18["planning_d"] - pw_d) < 1e-12
+chk(P12, f"| {s2(q1['mean'])} (95% CI {s2(q1['lo'])} to {s2(q1['hi'])}), p = {p2(q1['p'])}; "
+         f"{q1['n_pos']} of {q1['n']} mice > 0 |")
+chk(P12, f"| Welch t | {s2(q2['mean_a'])} vs {s2(q2['mean_b'])}, p = {p2(q2['p'])} |")
+chk(P12, f"| one-sample t vs 0 | {s2(q3['mean'])}, p = {p2(q3['p'])} |")
+chk(P12, f"| {f2(q4['abs_r1'])} vs {f2(q4['abs_w1'])}, p = {p2(q4['p'])} |")
+chk(P12, f"Dec-2025: {s2(q2s['mean_a'])} vs {s2(q2s['mean_b'])}, p = {p2(q2s['p'])} (n = {q2s['n_a']} / {q2s['n_b']})")
+chk(P12, f"lasted at least {f1(m18['cohorts']['dec2025']['min_end_days13_17'])} s")
+ses18 = pd.read_csv(D / "sessions.csv")
+e12 = ses18[(ses18.paradigm == "ProgressiveRatioExperiment") & (ses18.day == 12) & (ses18.end < 840)]
+assert list(e12.mouse_key) == ["6100_red"]
+chk(P12, f"6100 red (Passive) drops out because its day-12 session ended at {f1(e12.end.iloc[0])} s")
+chk(P12, f"these rules give the mice used so far: {q2['n_a']} Active and {q2['n_b']} Passive")
+chk(P12, f"The planning effect is d = {f2(pw_d)}")
+for r_ in (0.3, 0.5, 0.7):
+    row_ = " | ".join(f2(pw_one.power(pw_d / np.sqrt(2 * (1 - r_)), nobs=n_, alpha=0.05)) for n_ in (4, 5, 6, 7, 8, 10, 12))
+    chk(P12, f"| power, r = {r_} | {row_} |")
+chk(P12, f"80% power needs {f1(pw_w[0.3])}, {f1(pw_w[0.5])} and {f1(pw_w[0.7])} Active mice for r = 0.3, 0.5 and 0.7")
+chk(P12, f"the observed r was {f2(O18['P1']['r'])} and the observed dz {f2(O18['P1']['dz'])} (80% power at "
+         f"{f1(O18['P1']['n80'])} mice)")
+chk(P12, f"Plan with r = 0.5: {up(pw_w[0.5])} Active mice")
+chk(P12, f"S2 (Hedges' g = {f2(O18['S2']['g'])}) has {pc0(O18['S2']['power_n6'])} power with 6 mice per group, and S3 "
+         f"(dz = {f2(O18['S3']['dz'])}) has {pc0(O18['S3']['power_n6'])} with 6 Active mice")
+chk(P12, f"S4 (dz = {f2(O18['S4']['dz'])}) has {pc0(O18['S4']['power_n6'])} with 6 mice and needs about "
+         f"{up(O18['S4']['n80'])} Active mice for 80%")
+chk(P12, f"(Dec-2025: {pc0(m11r['confusion']['Active']['mRPE']['mRPE'])} at group level, "
+         f"{pc0(m05r['confusion_BIC']['Active']['mRPE']['mRPE'])} per mouse)")
+
 # ============================================================ report
 if FAIL:
     print(f"{len(FAIL)} of {N[0]} checks FAILED:")
