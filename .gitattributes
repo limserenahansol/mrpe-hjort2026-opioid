@@ -1,0 +1,2 @@
+# Keep every file byte-exact (no line-ending conversion), so CHECKSUMS.sha256 also holds for a git checkout.
+* -text
