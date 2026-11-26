@@ -327,6 +327,43 @@ cs = m13["Active"]["C_start_vs_models"]
 chk("05_trial_by_trial.md", f"(mean {f1(cs[to]['start_vs_model']['mean_a'])}) with noise-free model curves, which all start by trial "
                             f"{f1(max(cs[k]['start_vs_model']['mean_b'] for k in MAIN))} (Holm p = {f3(cs[to]['start_vs_model']['p_t_holm'])})")
 
+# ============================================================ README item 13 and docs/09 summary deck (added 2026-11-26)
+# Sample size, recomputed here with the same inputs and code path as project/m17_make_summary_2slides.py (lines 98-111).
+from scipy import stats as sst  # noqa: E402
+from statsmodels.stats.power import TTestIndPower, TTestPower  # noqa: E402
+
+PWA = {k: MF[k]["Active"]["whole"] for k in ("day14_vs_13", "day15_vs_13", "day16_vs_13", "day17_vs_16")}
+pw_n = PWA["day14_vs_13"]["n"]
+pw_sd = float(np.mean([(v["hi"] - v["lo"]) / 2 * np.sqrt(pw_n) / sst.t.ppf(0.975, pw_n - 1) for v in PWA.values()]))
+pw_late = (PWA["day15_vs_13"]["mean"] + PWA["day16_vs_13"]["mean"]) / 2
+pw_d = (abs(pw_late) - abs(PWA["day14_vs_13"]["mean"])) / pw_sd
+pw_ind, pw_one = TTestIndPower(), TTestPower()
+pw_n80, pw_n90 = (pw_ind.solve_power(pw_d, alpha=0.05, power=q) for q in (0.8, 0.9))
+pw_p6 = pw_ind.power(pw_d, nobs1=6, alpha=0.05)
+pw_half = pw_ind.solve_power(pw_d / 2, alpha=0.05, power=0.8)
+pw_w = {r: pw_one.solve_power(pw_d / np.sqrt(2 * (1 - r)), alpha=0.05, power=0.8) for r in (0.3, 0.5, 0.7)}
+pw_w6 = pw_one.power(pw_d / np.sqrt(2 * (1 - 0.5)), nobs=6, alpha=0.05)
+up = lambda x: f"{int(np.ceil(x))}"
+chk("README.md", f"the day-14 change ({s2(PWA['day14_vs_13']['mean'])}) versus the mean change on days 15-16 ({s2(pw_late)}), "
+                 f"divided by the between-mouse SD of the change ({f2(pw_sd)}, the mean of four SDs recovered from the 95% CIs "
+                 f"in `m11_modelfree.json`): d = {f2(pw_d)}")
+chk("README.md", f"80% power needs {f1(pw_n80)} mice per group, so {up(pw_n80)} (90% power: {f1(pw_n90)}). "
+                 f"The current n = {pw_n} gives {pc0(pw_p6)} power.")
+chk("README.md", f"80% power needs {f1(pw_w[0.5])} mice, so {up(pw_w[0.5])}, if the two measures correlate at r = 0.5 "
+                 f"({f1(pw_w[0.3])} at r = 0.3, {f1(pw_w[0.7])} at r = 0.7)")
+chk("README.md", f"a group x condition interaction: {up(pw_half)} mice per group")
+chk("README.md", f"d is estimated from these {pw_n} mice")
+chk("09_slides.md", f"Two-sample t, two-sided alpha 0.05: {f1(pw_n80)} per group for 80% ({f1(pw_n90)} for 90%); "
+                    f"power at n = 6 = {f2(pw_p6)}")
+chk("09_slides.md", f"80% at {f1(pw_w[0.3])} / {f1(pw_w[0.5])} / {f1(pw_w[0.7])} mice for r = 0.3 / 0.5 / 0.7 "
+                    f"(power at n = 6 with r = 0.5: {f2(pw_w6)})")
+chk("09_slides.md", f"(about 4x the n): {up(pw_half)} per group or cell")
+chk("09_slides.md", f"confirming the lag needs {up(pw_n80)} mice per group, or {up(pw_w[0.5])} if each mouse is tested in "
+                    f"both conditions")
+SUMREP = json.load(open(ROOT / "slides" / "summary_20261126" / "fit_report.json", encoding="utf-8"))
+assert all(ok for _, ok in SUMREP["checks"]) and all(f["ok"] for f in SUMREP["fit"])
+chk("09_slides.md", f"Its {len(SUMREP['checks'])} number checks and {len(SUMREP['fit'])} text-fit checks pass")
+
 # ============================================================ report
 if FAIL:
     print(f"{len(FAIL)} of {N[0]} checks FAILED:")

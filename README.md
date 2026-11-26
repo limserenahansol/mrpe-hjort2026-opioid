@@ -2,6 +2,8 @@
 
 **Teaching package for another analyst or AI agent.** Version 2026-11-19. Status: CURRENT.
 The trial-by-trial results are version 2. Version 1 is kept in the code but its claims are withdrawn.
+**Added on 2026-11-26:** a 2-slide summary deck (English, Korean) with a sample-size calculation, in
+`slides/summary_20261126/` (docs/09, last section; item 13 below). Earlier results and decks are unchanged.
 
 This package explains, from first principles, a re-analysis of our oral-morphine licking experiment with the learning
 models of a 2026 Nature paper. It covers what was done, every result with its number, and what must **not** be
@@ -25,8 +27,8 @@ claimed. Everything here is a copy. The original project lives on the lab PC at
 | 5 | [docs/05_trial_by_trial.md](docs/05_trial_by_trial.md) | The paper-style trial-by-trial analyses (Fig. 1d,e,m analogues), the noise-matched check and the placebo |
 | 6 | [docs/06_conclusions_and_limits.md](docs/06_conclusions_and_limits.md) | What holds, what does not, what cannot be tested, alternative explanations, next designs |
 | 7 | [docs/07_rules_for_agents.md](docs/07_rules_for_agents.md) | Binding wording rules and known traps |
-| 8 | [docs/08_code_and_reproduce.md](docs/08_code_and_reproduce.md) | Script-by-script map (m01 to m16), inputs and outputs, how to rerun |
-| 9 | [docs/09_slides.md](docs/09_slides.md) | The current 8-slide deck, slide by slide |
+| 8 | [docs/08_code_and_reproduce.md](docs/08_code_and_reproduce.md) | Script-by-script map (m01 to m17), inputs and outputs, how to rerun |
+| 9 | [docs/09_slides.md](docs/09_slides.md) | The current 8-slide deck, slide by slide; the 2-slide summary of 2026-11-26 at the end |
 | 10 | [docs/10_glossary.md](docs/10_glossary.md) | Every term and symbol |
 | 11 | [docs/11_numbers_index.md](docs/11_numbers_index.md) | Every key number with its source file and JSON key (auto-generated) |
 
@@ -86,6 +88,15 @@ Unless noted, numbers are for Active mice (n = 6) and p values are two-sided.
     the errors were largest, and changed later; the morphine-to-water change was slower than the water-to-morphine
     change on the group curve. But with 6 mice and one switch per direction, no learning model is rejected and error
     averaging is untestable. A delayed oral-drug effect, a withdrawal state, or taste could produce the same lag.
+13. **Sample size for a follow-up (added 2026-11-26; `m17`, statsmodels).** The effect is the Active day-14 lag:
+    the day-14 change (-0.06) versus the mean change on days 15-16 (-0.31), divided by the between-mouse SD of the
+    change (0.21, the mean of four SDs recovered from the 95% CIs in `m11_modelfree.json`): d = 1.18.
+    - Two groups, two-sided t test at alpha = 0.05: 80% power needs 12.3 mice per group, so 13 (90% power: 16.1).
+      The current n = 6 gives 46% power.
+    - Each mouse tested in both conditions (paired t): 80% power needs 7.7 mice, so 8, if the two measures correlate
+      at r = 0.5 (10.0 at r = 0.3, 5.6 at r = 0.7).
+    - Half the effect, or a group x condition interaction: 46 mice per group.
+    - d is estimated from these 6 mice and is uncertain; a smaller true effect needs more mice.
 
 ## Ten rules (full list in docs/07)
 
@@ -113,10 +124,12 @@ Unless noted, numbers are for Active mice (n = 6) and p values are two-sided.
 ```
 README.md               this file
 docs/                   the guide (01-11)
-project/                byte-identical copy of the analysis scripts m01-m16 + the project log (README.md)
+project/                byte-identical copy of the analysis scripts m01-m17 + the project log (README.md)
   project/data/         derived tables and JSON results (no raw data, no pickles)
   project/figs/         figures 1-4 of the first analysis round
 slides/                 CURRENT 8-slide decks (EN, KR), slide previews (PNG), figure PNGs, slide check reports
+  slides/summary_20261126/  2-slide summary deck (EN, KR) of 2026-11-26: previews (PNG, PDF), figures, check report
+release/                zip of the package as of 2026-11-19 (made before the summary deck was added)
 tools/                  build_numbers_index.py (writes docs/11) and check_guide_numbers.py (checks the docs)
 CHECKSUMS.sha256        sha256 of every file in the package
 ```

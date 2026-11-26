@@ -4,6 +4,8 @@ CURRENT decks: `slides/mrpe_hjort2026_opioid_8slides_EN_v4_20261118.pptx` (Engli
 
 Superseded, kept in the original project only: `*_6slides_*_20261117.pptx` (v1 of slides 1-6), `*_2slides_*_20261118.pptx` and `*_8slides_*_v3_20261118.pptx` (v1 of slides 7-8).
 
+A separate 2-slide summary deck (2026-11-26), which condenses these results and adds a sample-size calculation, is described in the last section of this file.
+
 Below, the English text of every slide is copied verbatim from the deck (title, KEY box, bottom line, footer, speaker notes). Preview images: `slides/preview_EN/slideN.png`; figure files: `slides/figures/`.
 
 ## Slide 1: Hjort et al. 2026: behaviour changes only after errors pile up
@@ -198,6 +200,72 @@ a: Active group-mean curves, raw change in P(lick) against the day before the sw
 b: per mouse, the paper's test. Active drug -> water 42.5, 33.0, 15.0, 64.5, 73.5, 3.0; water -> drug 1.5, 47.0, 4.5, 4.0, 11.5, 6.0 (paired t p 0.11, Wilcoxon p 0.22, 4/6 later; equal windows p 0.12). Passive 12.9 vs 20.1 (p 0.58): at once at drug -> water; the water -> drug change is gradual (group fit at its amplitude bound). Per-mouse fits are steps (s at its 0.3-trial floor), so a mouse's start is its midpoint minus 0.66.
 c: start of the drug -> water change in the group curve vs simulated data from each fitted model with noise matched to days 11-13 (calibration A; B in brackets): instant switch median 0.3, 95% range 0.0-36.9, p 0.094 (0.068); RPE median 4.8, 95% range 0.0-40.4, p 0.60 (0.52); RPE 2α median 6.2, 95% range 0.0-52.9, p 0.92 (0.81); meta-RPE median 12.8, 95% range 0.0-51.8, p 0.94 (0.99). Midpoint, same check: instant switch p 0.069 (0.047); RPE p 0.30 (0.22); RPE 2α p 0.87 (0.84); meta-RPE p 0.93 (0.95). The mice's own start is uncertain: 95% CI 0-47, leave-one-out 6.4-41.8.
 MEANING: at the group level the drug -> water change is later than the water -> drug change (as in the paper), but the paper's per-mouse test is not significant here (n = 6), and the start does not separate the models. Our two switches are 3 days apart with different histories (8 drug days vs 3 water days), unlike the paper's single session. The fast water -> drug change happened within ~2.5 min, before an oral dose acts; taste may act as a learned drug cue (not tested).
+```
+
+</details>
+
+## Summary deck: 2 slides (added 2026-11-26)
+
+Files: `slides/summary_20261126/mrpe_summary_2slides_EN_20261126.pptx` (English) and `slides/summary_20261126/mrpe_summary_2slides_KR_20261126.pptx` (Korean slide text and speaker notes; figures keep English labels). PDF renders: `slides/summary_20261126/preview_EN/mrpe_summary_2slides_EN_20261126.pdf` and `slides/summary_20261126/preview_KR/mrpe_summary_2slides_KR_20261126.pdf`; figure files: `slides/summary_20261126/figs/`.
+
+Made by `project/m17_make_summary_2slides.py` from the result files in `project/data/` (no new model fits). It condenses slides 3-5 and 7-8 and docs/04-06, and adds one new analysis: the sample-size (power) calculation on slide 2 (README item 13). Its 100 number checks and 20 text-fit checks pass (`slides/summary_20261126/fit_report.json`).
+
+As above, the English text is copied verbatim from the deck.
+
+### Summary slide 1: Active licking lags after morphine removal; Passive does not
+
+![summary slide 1](../slides/summary_20261126/preview_EN/slide1.png)
+
+**Bottom line:** Did: fitted the Hjort 2026 learning models (our port reproduces the paper's ranking) to PR licking on days 11–18; tested every effect at the mouse level.  Found: Active licking held on the first water day (−0.06, p = 0.53; Passive +0.40, Welch p = 0.001) and fell on days 15–16; two learning rates fit Active best (α− 0.01 vs α+ 0.12).
+
+**Footer (n and test):** n = 6 Active, 7 Passive (6099 white died on day 13). p(lick) = share of 30-s bins with ≥ 1 lick; change = per-mouse session mean minus the reference day (13 or 16). a: one-sample t vs 0 and Welch t, two-sided. b: group-shared learning rates + each mouse's readout; held-out = leave-one-mouse-out CV. c: 1000 bootstraps over mice; bounds 0.01–1. A delayed oral-drug effect, Withdrawal or taste can also slow stopping.
+
+<details><summary>Speaker notes (verbatim)</summary>
+
+```text
+WHAT: the behaviour and model results on one slide (details: slides 3-5 and 7-8 of the 8-slide v4 deck).
+a: per-mouse change in p(lick) (share of 30-s bins with at least one lick) from the last day before each switch. Days 14-16 (Withdrawal, water) are compared with day 13 (Equal Access, morphine); days 17-18 (Re-exposure, morphine) with day 16. Active licking did not change on day 14 (−0.06, p = 0.53) and fell on days 15-16 (−0.27, −0.35); it rose again on day 17 (+0.35, p = 0.014). Passive licking rose on day 14 already (+0.40). Rows under the axis: one-sample t vs 0 per group and Welch t between groups.
+b: group fits to Active licking on days 11-18 (learning rates shared by the group, each mouse's own readout). RPE 2alpha (separate rates after negative and positive errors) is best by BIC (meta-RPE +9.1, RPE +11.3, instant switch +22.0). On held-out mice (leave-one-mouse-out) RPE 2alpha and meta-RPE tie (+1.3; meta-RPE better in 4 of 6 mice); one rate (+8.3) and the instant switch (+15.5) are worse.
+c: RPE 2alpha rates with 95% CIs from 1000 bootstraps over mice. Active: alpha- 0.01 [0.01, 0.03] vs alpha+ 0.12 [0.05, 1.00]; alpha- < alpha+ in 99.5% of bootstraps. Passive rates are wide (78.1%).
+CAVEATS: one switch each way per mouse, n = 6 / 7. Oral morphine acts minutes after a drop, so a delayed drug effect, the Withdrawal state or taste could produce the same lag. Port check: on the authors' 40 mice our Python port gives the paper's ranking (meta-RPE BIC change from best 2.6 vs 5.7-18.6).
+```
+
+</details>
+
+### Summary slide 2: What 6 mice can show, and how many a follow-up needs
+
+![summary slide 2](../slides/summary_20261126/preview_EN/slide2.png)
+
+**Left column:** a  What the data show (mouse-level tests, n = 6 / 7)
+
+- **Supported**
+  - Port check: on the paper's 40 mice meta-RPE fits best (ΔBIC 2.6 vs 5.7–18.6), as in its Fig. 1k,l
+  - Day 14: Active licking unchanged (−0.06, p = 0.53), Passive rose (+0.40); Welch p = 0.001
+  - First 7.5 min of day 14: no fall (+0.02) although 88% of the day's water drops were earned
+  - Active fell on days 15–16 (−0.27, −0.35; p = 0.018, 0.015), rose on day 17 (+0.35, p = 0.014)
+  - Group level: two rates beat one rate and instant switch (ΔBIC +11, +22); 0% false picks
+- **Not supported (tested: not significant or not robust)**
+  - Slower loss than return, tested directly: first-day change 0.18 vs 0.35, paired p = 0.21
+  - By timing: midpoint 36.5 vs 4.5 trials in the group curve, but per mouse p = 0.11
+  - Instant switch rejected: mouse-level p = 0.073 (Holm 0.29); noise-matched 0.021–0.050
+  - Two rates better than meta-RPE: a tie on held-out mice (meta-RPE better in 4 of 6)
+  - Passive above every model: depends on the reference day (placebo pair fails, p = 0.046)
+- **Untestable here (one switch each way per mouse)**
+  - Error averaging (meta part): meta-RPE data recovered in 2% (per mouse) / 16% (group) of simulations
+  - Learning vs a delayed oral-drug effect, Withdrawal state or taste: not separable by behaviour
+
+**Bottom line:** Did: sorted every claim by its mouse-level test; computed power from our between-mouse SD (0.21).  Found: the day-14 hold and the two group-level rates hold, but error averaging is untestable and n = 6 gives 46% power; confirming the lag needs 13 mice per group, or 8 if each mouse is tested in both conditions.
+
+**Footer (n and test):** Effect = Active change on day 14 (−0.06) vs days 15–16 (mean −0.31) ÷ between-mouse SD 0.21: d = 1.18. Two-sample t (statsmodels), two-sided α = 0.05; dots = Welch t simulation. Within mouse: paired t, dz = d / √(2(1 − r)); r = 0.7 / 0.3 gives 6 / 10 mice. Half the effect or a group × condition interaction (~4× the n): 46 per group. No independent-bin p values are used.
+
+<details><summary>Speaker notes (verbatim)</summary>
+
+```text
+WHAT: every claim with the label it earned in the checks (claims table: teaching package docs/06), and the sample size a follow-up cohort needs.
+SUPPORTED: the port reproduces the paper's ranking on its 40 mice; day 14: Active licking unchanged (-0.06, p = 0.53) while Passive rose (+0.40); the first 7.5 min of day 14 did not fall (+0.02) although 88% of that day's drops had been earned (PR front-loads drops); Active fell on days 15-16 and rose on day 17; at group level two rates beat one rate and the instant switch, and two rates are never picked for data made with one rate or the instant switch.
+NOT SUPPORTED: the asymmetry as a direct test (0.18 vs 0.35, paired t p = 0.21); the later group-curve midpoint after drug loss (36.5 vs 4.5 trials) is not significant per mouse (p = 0.11); the instant switch is not rejected at the mouse level (p = 0.073, Holm 0.29; noise-matched simulations 0.021-0.050); RPE 2alpha vs meta-RPE is a tie on held-out mice; 'Passive rose more than every model' depends on the unusually low day-13 reference (placebo day 13 - 12 fails, p = 0.046).
+UNTESTABLE: error averaging: data made by meta-RPE are recovered in 2% (per mouse) / 16% (group) of simulations, because each mouse has one switch each way; a delayed oral-drug effect, the Withdrawal state and taste cannot be separated from learning with behaviour alone.
+POWER (statsmodels; inputs from our data only): between-mouse SD of the change in p(lick) = 0.21 (mean of 4 SDs recovered from the 95% CIs). Effect = the day-14 lag in Active mice: day-14 change -0.06 vs mean of days 15-16 -0.31 -> d = 1.18. Two-sample t, two-sided alpha 0.05: 12.3 per group for 80% (16.1 for 90%); power at n = 6 = 0.46; the Welch simulation (20,000 draws) agrees: n = 12 gives 0.82. Within mouse (each mouse tested in both conditions; paired t, dz = d / sqrt(2(1 - r))): 80% at 10.0 / 7.7 / 5.6 mice for r = 0.3 / 0.5 / 0.7 (power at n = 6 with r = 0.5: 0.64). Half the effect, or a group x condition interaction (about 4x the n): 46 per group or cell.
 ```
 
 </details>

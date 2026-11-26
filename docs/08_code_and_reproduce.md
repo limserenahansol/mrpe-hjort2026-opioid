@@ -10,7 +10,7 @@ Each script reads from and writes to `data/` next to itself (`D = HERE / "data"`
 |---|---|
 | Machine | Windows 11 |
 | Python | 3.13.3 |
-| Libraries | numpy 2.2.5, scipy 1.17.1, pandas 2.3.3, numba 0.66.0, matplotlib 3.10.8, python-pptx 1.0.2 |
+| Libraries | numpy 2.2.5, scipy 1.17.1, pandas 2.3.3, numba 0.66.0, matplotlib 3.10.8, python-pptx 1.0.2, statsmodels 0.14.6 (m17 and the docs checker only) |
 | Previews (slides only) | LibreOffice headless (`C:\Program Files\LibreOffice\program\soffice.exe`), run with its own profile |
 | Fonts (slides only) | Arial; Malgun Gothic for Korean |
 
@@ -36,6 +36,7 @@ The fitting scripts use process pools with up to 30 workers.
 | `m14_make_trial_slides.py` | Slides 7-8 v1 and v3 decks (superseded) | m13 | `slides_20261118_trial_by_trial/` (v1, v3) | - |
 | `m15_trial_checks_v2.py` | Noise-matched check (calibrations A and B), placebo, mouse-level t, equal windows, leave one out | m13 functions + m04/m05 | `m15_summary.json`, `m15_log.txt` | 20261119 |
 | `m16_make_trial_slides_v2.py` | Slides 7-8 v2 and v4 decks (CURRENT); 134 checks | m13, m15 | `slides_20261118_trial_by_trial/*_v2_*`, `*_v4_*` | - |
+| `m17_make_summary_2slides.py` | (26 Nov) 2-slide summary deck (EN, KR) and the sample-size calculation (statsmodels: two-sample and paired t; Welch-t simulation, 20,000 draws per n); 100 number checks + 20 text-fit checks | m03, m05, m08, m11, m13, m15 outputs; m10 helpers | `slides_20261126_summary/` (copied to `slides/summary_20261126/`) | simulation `default_rng(1)` |
 
 ### Key functions to know
 
@@ -98,7 +99,10 @@ logistic-regression readout (Newton steps with a 1e-6 ridge).
      `project/data/pairs_from_raw.csv` (included).
    - `m01_parse_trials.py` line 23 has the same folder (only needed with raw data).
    - `m10_make_slides.py` lines 48-50 give the lab slide template (not included) and LibreOffice; lines 554-555 give
-     the font files. The slide scripts (m10, m12, m14, m16) are not needed to understand or check the analysis.
+     the font files. The slide scripts (m10, m12, m14, m16, m17) are not needed to understand or check the analysis.
+   - `m17_make_summary_2slides.py` line 52 points to a power-results file outside the package (not included). It is
+     used only for two extra cross-checks of the power numbers, which are skipped when the file is absent (line 124),
+     so a rerun elsewhere reports 98 checks.
 3. **Pickles are not shipped.** Run `m04` first; it rebuilds `m04_events.pkl` and `m04_traces.pkl` deterministically
    from `licks_all.csv`.
 4. Then run m05 → m06 → m08 → m11 (and `m11 --asym`) → m13 → m15. m03 needs only the authors' data; m07 needs
@@ -113,4 +117,5 @@ logistic-regression readout (Newton steps with a 1e-6 ridge).
   JSON files, with each number's source path.
 - **`tools/check_guide_numbers.py`** checks that the key numbers quoted in `README.md` and `docs/*.md` equal the
   values in the JSON files. Run `python tools/check_guide_numbers.py` from the package root; it should print
-  `ALL OK`.
+  `ALL OK`. Since 2026-11-26 it also recomputes the sample-size numbers (README item 13 and the last section of
+  docs/09) with statsmodels.

@@ -1,0 +1,546 @@
+{
+ "checks": [
+  [
+   "day14_vs_13 Active: per-mouse mean, CI and one-sample p equal m11",
+   true
+  ],
+  [
+   "day14_vs_13 Passive: per-mouse mean, CI and one-sample p equal m11",
+   true
+  ],
+  [
+   "day14_vs_13: Welch p equals m11",
+   true
+  ],
+  [
+   "day15_vs_13 Active: per-mouse mean, CI and one-sample p equal m11",
+   true
+  ],
+  [
+   "day15_vs_13 Passive: per-mouse mean, CI and one-sample p equal m11",
+   true
+  ],
+  [
+   "day15_vs_13: Welch p equals m11",
+   true
+  ],
+  [
+   "day16_vs_13 Active: per-mouse mean, CI and one-sample p equal m11",
+   true
+  ],
+  [
+   "day16_vs_13 Passive: per-mouse mean, CI and one-sample p equal m11",
+   true
+  ],
+  [
+   "day16_vs_13: Welch p equals m11",
+   true
+  ],
+  [
+   "day17_vs_16 Active: per-mouse mean, CI and one-sample p equal m11",
+   true
+  ],
+  [
+   "day17_vs_16 Passive: per-mouse mean, CI and one-sample p equal m11",
+   true
+  ],
+  [
+   "day17_vs_16: Welch p equals m11",
+   true
+  ],
+  [
+   "day18_vs_16 Active: per-mouse mean, CI and one-sample p equal m11",
+   true
+  ],
+  [
+   "day18_vs_16 Passive: per-mouse mean, CI and one-sample p equal m11",
+   true
+  ],
+  [
+   "day18_vs_16: Welch p equals m11",
+   true
+  ],
+  [
+   "n = 6 Active, 7 Passive",
+   true
+  ],
+  [
+   "held-out: RPE 2a total negLL is the best, meta-RPE second",
+   true
+  ],
+  [
+   "power: d, n80, n90, power at 6 equal power_results.json",
+   true
+  ],
+  [
+   "power: Welch simulation equals power_results.json",
+   true
+  ],
+  [
+   "slide 1: RPE 2a group fit rates equal m05 (m08 stores them rounded to 4 decimals)",
+   true
+  ],
+  [
+   "slide 1: RPE 2a best by group BIC and by held-out negLL",
+   true
+  ],
+  [
+   "[EN] text fits: S1 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S1 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S1 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "slide 2: port range = smallest and largest non-meta-RPE BIC change",
+   true
+  ],
+  [
+   "slide 2: two rates never picked for one-rate or instant-switch data (group recovery)",
+   true
+  ],
+  [
+   "slide 2: day-14 first half is the first 7.5 min (15 of 30 bins); drops by 7.5 min = 3rd 2.5-min step",
+   true
+  ],
+  [
+   "[EN] text fits: S2 Panel a header (0.33 in needed, box 0.37 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 Supported (1.32 in needed, box 1.40 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 Not supported (1.32 in needed, box 1.40 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 Untestable (0.73 in needed, box 0.81 in)",
+   true
+  ],
+  [
+   "[EN] slide 2: the three claim boxes end above the bottom line (5.14 in <= 5.86 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 Title (0.57 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 Bottom line (0.91 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[EN] text fits: S2 Footer (n and test) (0.66 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[EN] deck has 2 slides",
+   true
+  ],
+  [
+   "slide 1: RPE 2a group fit rates equal m05 (m08 stores them rounded to 4 decimals)",
+   true
+  ],
+  [
+   "slide 1: RPE 2a best by group BIC and by held-out negLL",
+   true
+  ],
+  [
+   "[KR] text fits: S1 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S1 Bottom line (0.89 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S1 Footer (n and test) (0.47 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "slide 2: port range = smallest and largest non-meta-RPE BIC change",
+   true
+  ],
+  [
+   "slide 2: two rates never picked for one-rate or instant-switch data (group recovery)",
+   true
+  ],
+  [
+   "slide 2: day-14 first half is the first 7.5 min (15 of 30 bins); drops by 7.5 min = 3rd 2.5-min step",
+   true
+  ],
+  [
+   "[KR] text fits: S2 Panel a header (0.35 in needed, box 0.37 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 Supported (1.43 in needed, box 1.51 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 Not supported (1.43 in needed, box 1.51 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 Untestable (0.78 in needed, box 0.86 in)",
+   true
+  ],
+  [
+   "[KR] slide 2: the three claim boxes end above the bottom line (5.40 in <= 5.86 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 Title (0.61 in needed, box 0.80 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 Bottom line (0.89 in needed, box 0.92 in)",
+   true
+  ],
+  [
+   "[KR] text fits: S2 Footer (n and test) (0.47 in needed, box 0.67 in)",
+   true
+  ],
+  [
+   "[KR] deck has 2 slides",
+   true
+  ],
+  [
+   "printed z1_d14a = −0.06 matches -0.0555556",
+   true
+  ],
+  [
+   "printed z1_p14a = 0.53 matches 0.525731",
+   true
+  ],
+  [
+   "printed z1_d14p = +0.40 matches 0.404762",
+   true
+  ],
+  [
+   "printed z1_w14 = 0.001 matches 0.00112952",
+   true
+  ],
+  [
+   "printed z1_am = 0.01 matches 0.01",
+   true
+  ],
+  [
+   "printed z1_ap = 0.12 matches 0.1192",
+   true
+  ],
+  [
+   "printed z2_m3 = 2.6 matches 2.57",
+   true
+  ],
+  [
+   "printed z2_m3lo = 5.7 matches 5.69",
+   true
+  ],
+  [
+   "printed z2_m3hi = 18.6 matches 18.63",
+   true
+  ],
+  [
+   "printed z2_d14a = −0.06 matches -0.0555556",
+   true
+  ],
+  [
+   "printed z2_p14a = 0.53 matches 0.525731",
+   true
+  ],
+  [
+   "printed z2_d14p = +0.40 matches 0.404762",
+   true
+  ],
+  [
+   "printed z2_w14 = 0.001 matches 0.00112952",
+   true
+  ],
+  [
+   "printed z2_h1 = +0.02 matches 0.0222222",
+   true
+  ],
+  [
+   "printed z2_f75 = 88 matches 88.0752",
+   true
+  ],
+  [
+   "printed z2_d15 = −0.27 matches -0.266667",
+   true
+  ],
+  [
+   "printed z2_d16 = −0.35 matches -0.35",
+   true
+  ],
+  [
+   "printed z2_p15 = 0.018 matches 0.0179629",
+   true
+  ],
+  [
+   "printed z2_p16 = 0.015 matches 0.0148887",
+   true
+  ],
+  [
+   "printed z2_d17 = +0.35 matches 0.35",
+   true
+  ],
+  [
+   "printed z2_p17 = 0.014 matches 0.0139883",
+   true
+  ],
+  [
+   "printed z2_br = +11 matches 11.27",
+   true
+  ],
+  [
+   "printed z2_bi = +22 matches 22.04",
+   true
+  ],
+  [
+   "printed z2_a14 = 0.18 matches 0.177778",
+   true
+  ],
+  [
+   "printed z2_a17 = 0.35 matches 0.35",
+   true
+  ],
+  [
+   "printed z2_pa = 0.21 matches 0.205707",
+   true
+  ],
+  [
+   "printed z2_midd = 36.5 matches 36.5",
+   true
+  ],
+  [
+   "printed z2_mide = 4.5 matches 4.5",
+   true
+  ],
+  [
+   "printed z2_fl = 99.65 matches 99.65",
+   true
+  ],
+  [
+   "printed z2_pm = 0.11 matches 0.108429",
+   true
+  ],
+  [
+   "printed z2_pi = 0.073 matches 0.0725818",
+   true
+  ],
+  [
+   "printed z2_ph = 0.29 matches 0.290327",
+   true
+  ],
+  [
+   "printed z2_nlo = 0.021 matches 0.0209895",
+   true
+  ],
+  [
+   "printed z2_nhi = 0.050 matches 0.0504748",
+   true
+  ],
+  [
+   "printed z2_pp = 0.046 matches 0.0461965",
+   true
+  ],
+  [
+   "printed z2_r1 = 2 matches 1.7",
+   true
+  ],
+  [
+   "printed z2_r2 = 16 matches 16",
+   true
+  ],
+  [
+   "printed z2_sd = 0.21 matches 0.21383",
+   true
+  ],
+  [
+   "printed z2_pw6 = 46 matches 45.6503",
+   true
+  ],
+  [
+   "printed z2_n80c = 13 matches 13",
+   true
+  ],
+  [
+   "printed z2_nw5c = 8 matches 8",
+   true
+  ],
+  [
+   "printed z2_d = 1.18 matches 1.18215",
+   true
+  ],
+  [
+   "printed z2_pd14 = −0.06 matches -0.0555556",
+   true
+  ],
+  [
+   "printed z2_late = −0.31 matches -0.308333",
+   true
+  ],
+  [
+   "printed z2_nh = 46 matches 45.9122",
+   true
+  ],
+  [
+   "printed z2_nw7c = 6 matches 6",
+   true
+  ],
+  [
+   "printed z2_nw3c = 10 matches 10",
+   true
+  ]
+ ],
+ "fit": [
+  {
+   "lang": "EN",
+   "name": "S1 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S1 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S1 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 Panel a header",
+   "need_in": 0.329,
+   "box_in": 0.37,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 Supported",
+   "need_in": 1.325,
+   "box_in": 1.405,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 Not supported",
+   "need_in": 1.325,
+   "box_in": 1.405,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 Untestable",
+   "need_in": 0.729,
+   "box_in": 0.809,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 Title",
+   "need_in": 0.574,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 Bottom line",
+   "need_in": 0.913,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "EN",
+   "name": "S2 Footer (n and test)",
+   "need_in": 0.659,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S1 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S1 Bottom line",
+   "need_in": 0.887,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S1 Footer (n and test)",
+   "need_in": 0.469,
+   "box_in": 0.665,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 Panel a header",
+   "need_in": 0.353,
+   "box_in": 0.37,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 Supported",
+   "need_in": 1.428,
+   "box_in": 1.508,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 Not supported",
+   "need_in": 1.428,
+   "box_in": 1.508,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 Untestable",
+   "need_in": 0.782,
+   "box_in": 0.862,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 Title",
+   "need_in": 0.606,
+   "box_in": 0.8,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 Bottom line",
+   "need_in": 0.887,
+   "box_in": 0.92,
+   "ok": true
+  },
+  {
+   "lang": "KR",
+   "name": "S2 Footer (n and test)",
+   "need_in": 0.469,
+   "box_in": 0.665,
+   "ok": true
+  }
+ ]
+}

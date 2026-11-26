@@ -20,6 +20,7 @@ Nature 655:174. doi:10.1038/s41586-026-10443-5. Code: github.com/stuberlab/Hjort
 | `m14_make_trial_slides.py` | (18 Nov) two new slides 7-8 (EN + KR) + v3 decks (v1 of slides 7-8, superseded) | `slides_20261118_trial_by_trial\` |
 | `m15_trial_checks_v2.py` | (18 Nov, after the review) noise-matched model check (2 calibrations), placebo day pair, mouse-level t, equal windows, leave-one-out | `data/m15_summary.json`, `m15_log.txt` |
 | `m16_make_trial_slides_v2.py` | (18 Nov) slides 7-8 v2 (EN + KR) + v4 decks | `slides_20261118_trial_by_trial\` (`*_v2_*`, `*_v4_*`) |
+| `m17_make_summary_2slides.py` | (26 Nov) 2-slide summary of all results (EN + KR) + sample-size calculation (statsmodels); 100 checks | `slides_20261126_summary\` |
 
 ## Slides (2026-11-17, `m10_make_slides.py`, python-pptx only, lab template)
 `slides_20261117\` - `mrpe_hjort2026_opioid_6slides_EN_20261117.pptx` (English) and `..._KR_20261117.pptx`
